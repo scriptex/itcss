@@ -1,0 +1,16 @@
+/* Shell */
+.o-shell {
+	max-width: var(--shell-width);
+	padding-right: 1rem;
+	padding-left: 1rem;
+	margin-right: auto;
+	margin-left: auto;
+
+	&--flex {
+		@mixin flex-row; /* stylelint-disable-line */
+	}
+
+	&--fluid {
+		max-width: none;
+	}
+}

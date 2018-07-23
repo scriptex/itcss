@@ -1,0 +1,11 @@
+/* Mixin for centering elements with known dimensions (or images) */
+
+/* prettier-ignore */
+@define-mixin centered { /* stylelint-disable-line */
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}

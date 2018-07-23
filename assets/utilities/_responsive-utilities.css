@@ -1,0 +1,87 @@
+/* Responsive Utility Classes */
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+	display: none !important;
+}
+
+@media (--mobile) {
+	.hidden-xs {
+		display: none !important;
+	}
+
+	.visible-xs-block {
+		display: block !important;
+	}
+
+	.visible-xs-inline {
+		display: inline !important;
+	}
+
+	.visible-xs-inline-block {
+		display: inline-block !important;
+	}
+}
+
+@media (--tablet-portrait-only) {
+	.hidden-sm {
+		display: none !important;
+	}
+
+	.visible-sm-block {
+		display: block !important;
+	}
+
+	.visible-sm-inline {
+		display: inline !important;
+	}
+
+	.visible-sm-inline-block {
+		display: inline-block !important;
+	}
+}
+
+@media (--tablet-landscape-only) {
+	.hidden-md {
+		display: none !important;
+	}
+
+	.visible-md-block {
+		display: block !important;
+	}
+
+	.visible-md-inline {
+		display: inline !important;
+	}
+
+	.visible-md-inline-block {
+		display: inline-block !important;
+	}
+}
+
+@media (--desktop-only) {
+	.hidden-lg {
+		display: none !important;
+	}
+
+	.visible-lg-block {
+		display: block !important;
+	}
+
+	.visible-lg-inline {
+		display: inline !important;
+	}
+
+	.visible-lg-inline-block {
+		display: inline-block !important;
+	}
+}

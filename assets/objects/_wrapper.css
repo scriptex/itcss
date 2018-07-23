@@ -1,0 +1,5 @@
+/* Wrapper */
+.o-wrapper {
+	min-height: 100vh;
+	@mixin flex-column nowrap, stretch, flex-start; /* stylelint-disable-line */
+}

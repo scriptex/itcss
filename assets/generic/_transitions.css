@@ -1,0 +1,14 @@
+/* Transitions */
+a,
+a img,
+input,
+button,
+select,
+textarea,
+.c-btn,
+[class^='svg-'] {
+	/* prettier-ignore */
+	transition-property: color, opacity, border-color, background-color, box-shadow, fill, stroke;
+	transition-duration: var(--timing);
+	transition-timing-function: var(--easing);
+}
