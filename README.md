@@ -1,4 +1,4 @@
-![Inverted Triangle CSS Visualization](./itcss.svg)
+![Inverted Triangle CSS Visualization](https://github.com/scriptex/itcss/blob/master/itcss.svg)
 
 # ITCSS
 
