@@ -75,6 +75,22 @@ This means that you can use the most recent CSS features and be sure that they w
 
 In order to do so in your setup, please refer to the [`postcss.config.js`](./postcss.config.js) file.
 
+## Available CSS selectors and their purpose
+
+### Settings
+
+### Tools
+
+### Generic
+
+### Elements
+
+### Objects
+
+### Components
+
+### Utilities
+
 ## LICENSE
 
 MIT
