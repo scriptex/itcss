@@ -2,7 +2,16 @@
 
 # ITCSS
 
+[![GitHub release](https://img.shields.io/github/release/scriptex/itcss.svg)](https://github.com/scriptex/itcss/releases/latest)
+[![GitHub issues](https://img.shields.io/github/issues/scriptex/itcss.svg)](https://github.com/scriptex/itcss/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/scriptex/itcss.svg)](https://github.com/scriptex/itcss/commits/master)
+[![Build Status](https://travis-ci.org/scriptex/itcss.svg?branch=master)](https://travis-ci.org/scriptex/itcss)
+[![npm](https://img.shields.io/npm/dt/itcss.svg)](https://www.npmjs.com/package/itcss)
+[![npm](https://img.shields.io/npm/v/itcss.svg)](https://www.npmjs.com/package/itcss)
+[![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/itcss/README.md)](https://github.com/scriptex/itcss/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/scriptex/itcss.svg)](https://greenkeeper.io/)
+[![devDependencies Status](https://david-dm.org/scriptex/itcss/dev-status.svg)](https://david-dm.org/scriptex/itcss?type=dev)
+[![dependencies Status](https://david-dm.org/scriptex/itcss/status.svg)](https://david-dm.org/scriptex/itcss)
 
 A starter boilerplate based on the [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/) (Inverted Triangle CSS) methodology.
 
