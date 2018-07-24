@@ -10,8 +10,6 @@
 [![npm](https://img.shields.io/npm/v/itcss.svg)](https://www.npmjs.com/package/itcss)
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/itcss/README.md)](https://github.com/scriptex/itcss/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/scriptex/itcss.svg)](https://greenkeeper.io/)
-[![devDependencies Status](https://david-dm.org/scriptex/itcss/dev-status.svg)](https://david-dm.org/scriptex/itcss?type=dev)
-[![dependencies Status](https://david-dm.org/scriptex/itcss/status.svg)](https://david-dm.org/scriptex/itcss)
 
 A starter boilerplate based on the [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/) (Inverted Triangle CSS) methodology.
 
