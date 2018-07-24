@@ -15,6 +15,7 @@
   "license": "MIT",
   "main": "index.css",
   "style": "index.css",
+  "dependencies": {},
   "devDependencies": {
     "postcss-cli": "^6.0.0",
     "postcss-easy-import": "^3.0.0",
