@@ -546,8 +546,8 @@ textarea,
 /* Elements */
 /* Document */
 html {
-	-webkit-tap-highlight-color: color(#000 a(0%));
-	-webkit-tap-highlight-color: color(var(--color-black) a(0%));
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
 	font-family: sans-serif;
