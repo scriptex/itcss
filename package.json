@@ -1,11 +1,16 @@
 {
   "name": "itcss",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "CSS starter boilerplate based on the ITCSS pattern",
   "scripts": {
     "build": "postcss index.css -o main.css -c postcss.config.js"
   },
-  "keywords": ["CSS", "PostCSS", "CSS Boilerplate", "ITCSS"],
+  "keywords": [
+    "CSS",
+    "PostCSS",
+    "CSS Boilerplate",
+    "ITCSS"
+  ],
   "author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
   "repository": "https://github.com/scriptex/itcss",
   "bugs": {
