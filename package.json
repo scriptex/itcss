@@ -24,7 +24,7 @@
   "devDependencies": {
     "postcss-cli": "6.0.0",
     "postcss-easy-import": "3.0.0",
-    "postcss-flexbugs-fixes": "4.0.0",
+    "postcss-flexbugs-fixes": "4.1.0",
     "postcss-mixins": "6.2.0",
     "postcss-nested": "4.1.0",
     "postcss-normalize": "7.0.1",
