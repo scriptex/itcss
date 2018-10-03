@@ -28,7 +28,7 @@
     "postcss-mixins": "6.2.0",
     "postcss-nested": "4.1.0",
     "postcss-normalize": "7.0.1",
-    "postcss-preset-env": "6.0.9",
+    "postcss-preset-env": "6.0.10",
     "postcss-utilities": "0.8.0"
   }
 }
