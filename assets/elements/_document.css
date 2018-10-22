@@ -9,5 +9,6 @@ body {
 	line-height: var(--line-height-base);
 	color: var(--color-black);
 	min-width: 20rem;
+	margin: 0;
 	background-color: var(--color-white);
 }
