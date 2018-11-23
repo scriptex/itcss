@@ -29,3 +29,14 @@ Thumbs.db
 
 # lock files
 yarn.lock
+
+# Prettier
+.prettierrc
+.prettierignore
+
+# Config files
+renovate.json
+postcss.config.js
+
+# Project specific
+itcss.svg
