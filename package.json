@@ -1,34 +1,34 @@
 {
-  "name": "itcss",
-  "version": "0.2.0",
-  "description": "CSS starter boilerplate based on the ITCSS pattern",
-  "scripts": {
-    "build": "postcss index.css -o main.css -c postcss.config.js"
-  },
-  "keywords": [
-    "CSS",
-    "PostCSS",
-    "CSS Boilerplate",
-    "ITCSS"
-  ],
-  "author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
-  "repository": "https://github.com/scriptex/itcss",
-  "bugs": {
-    "url": "https://github.com/scriptex/itcss/issues",
-    "email": "scriptex.bg@gmail.com"
-  },
-  "license": "MIT",
-  "main": "index.css",
-  "style": "index.css",
-  "dependencies": {},
-  "devDependencies": {
-    "postcss-cli": "6.1.0",
-    "postcss-easy-import": "3.0.0",
-    "postcss-flexbugs-fixes": "4.1.0",
-    "postcss-mixins": "6.2.1",
-    "postcss-nested": "4.1.1",
-    "postcss-normalize": "7.0.1",
-    "postcss-preset-env": "6.5.0",
-    "postcss-utilities": "0.8.0"
-  }
+	"name": "itcss",
+	"version": "1.0.0",
+	"description": "CSS starter boilerplate based on the ITCSS pattern",
+	"scripts": {
+		"build": "postcss index.css -o main.css -c postcss.config.js"
+	},
+	"keywords": [
+		"CSS",
+		"PostCSS",
+		"CSS Boilerplate",
+		"ITCSS"
+	],
+	"author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
+	"repository": "https://github.com/scriptex/itcss",
+	"bugs": {
+		"url": "https://github.com/scriptex/itcss/issues",
+		"email": "scriptex.bg@gmail.com"
+	},
+	"license": "MIT",
+	"main": "index.css",
+	"style": "index.css",
+	"dependencies": {},
+	"devDependencies": {
+		"postcss-cli": "6.1.0",
+		"postcss-easy-import": "3.0.0",
+		"postcss-flexbugs-fixes": "4.1.0",
+		"postcss-mixins": "6.2.1",
+		"postcss-nested": "4.1.1",
+		"postcss-normalize": "7.0.1",
+		"postcss-preset-env": "6.5.0",
+		"postcss-utilities": "0.8.0"
+	}
 }
