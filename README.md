@@ -87,17 +87,50 @@ In order to do so in your setup, please refer to the [`postcss.config.js`](./pos
 
 ### Settings
 
+-   `_colors.css` - contains all colors and theme Settings
+-   `_text.css` - contains all text settings (font-size, font-family, etc)
+-   `_transitions.css` - contains the default transition duration and timing function
+-   `_variables.css` - contains all other variables
+
 ### Tools
+
+-   `_chevron.css` - a mixin for a directional arrow icon
+-   `_flexbox.css` - a mixin for flex container
+-   `_media-queries.css` - mixins for all supported media queries
+-   `_mixins.css` - all other mixins
 
 ### Generic
 
+-   `_form-elements.css` - default styles for form elements
+-   `_reset.css` - additional browser reset and normalize (normalize.css is also included)
+-   `_transitions.css` - default transitions for focusable/active elements
+
 ### Elements
+
+-   `_document.css` - default styles for the `body` element
+-   `_headings.css` - default styles for all h\* (h1 - h6) tags
+-   `_links.css` - default styles for anchors
+-   `_texts.css` - default styles for text elements
 
 ### Objects
 
+-   `_grid.css` - a grid system
+-   `_main.css` - styles for the `main` element
+-   `_shell.css` - styles for the site container
+-   `_wrapper.css` - styles for the site wrapper
+
 ### Components
 
+-   `_btn.css` - default styles for the buttons
+-   `_list.css` - default styles for lists
+
 ### Utilities
+
+-   `_align.css` - alignment class utilities
+-   `_fullsize-background.css` - helper for background image
+-   `_hidden.css` - helper class/attribute for hidden elements
+-   `_responsive-utilities.css` - helpers for showing/hiding elements on different resolutions
+-   `_text-align.css` - text alignment utilities
 
 ## LICENSE
 
