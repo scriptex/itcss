@@ -11,7 +11,7 @@ html {
 
 body {
 	margin: 0;
-	text-decoration-skip: ink;
+	text-decoration-skip-ink: auto;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	text-size-adjust: none;
