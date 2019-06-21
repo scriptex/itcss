@@ -1839,9 +1839,9 @@ postcss-simple-vars@^5.0.1:
   dependencies:
     postcss "^7.0.2"
 
-postcss-utilities@0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/postcss-utilities/-/postcss-utilities-0.8.1.tgz#fc1ede5b6cd3264efcb06008680390bec19c590e"
+postcss-utilities@0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/postcss-utilities/-/postcss-utilities-0.8.2.tgz#a294e91d0883a22d87c6a582b44d0b97eb2d2721"
   dependencies:
     postcss "^7.0.2"
     postcss-value-parser "^3.3.0"
