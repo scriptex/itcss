@@ -1836,14 +1836,14 @@ postcss-simple-vars@^5.0.2:
   dependencies:
     postcss "^7.0.14"
 
-postcss-utilities@0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/postcss-utilities/-/postcss-utilities-0.8.2.tgz#a294e91d0883a22d87c6a582b44d0b97eb2d2721"
+postcss-utilities@0.8.4:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/postcss-utilities/-/postcss-utilities-0.8.4.tgz#1587c77a33b003137db2a900f72808665c4677a0"
   dependencies:
-    postcss "^7.0.2"
-    postcss-value-parser "^3.3.0"
+    postcss "^7.0.17"
+    postcss-value-parser "^4.0.0"
 
-postcss-value-parser@^3.2.3, postcss-value-parser@^3.3.0:
+postcss-value-parser@^3.2.3:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz#87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15"
 
