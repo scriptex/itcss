@@ -44,8 +44,8 @@ There are several predefined variables which you can overwrite:
 :root {
 	/* Color Variables */
 	--color-base: #333;
-	--color-white: #fff;
-	--color-black: #000;
+	--color-primary: #fff;
+	--color-secondary: #000;
 	--color-action: #ef4c23;
 
 	/* Text Variables */

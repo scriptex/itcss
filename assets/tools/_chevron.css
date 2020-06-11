@@ -1,10 +1,10 @@
 /*
 Chevron Mixin
-@usage: @mixin chevron 2rem, 0 0 1px 1px, $color-black, -5px 0 0 0.5em, -135deg;
+@usage: @mixin chevron 2rem, 0 0 1px 1px, $color-secondary, -5px 0 0 0.5em, -135deg;
 */
 
 /* prettier-ignore */
-@define-mixin chevron $dimensions: 1rem, $border-width: 0 0 1px 1px, $border-color: currentColor, $margin: auto, $rotation: 45deg { /* stylelint-disable-line */
+@define-mixin chevron $dimensions: 1rem, $border-width: 0 0 1px 1px, $border-color: currentColor, $margin: auto, $rotation: 45deg {
 	content: '';
 	width: $dimensions;
 	height: $dimensions;
