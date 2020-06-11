@@ -6,16 +6,16 @@
 	vertical-align: middle;
 	cursor: pointer;
 	appearance: none;
+}
 
-	&.disabled,
-	&[disabled] {
-		cursor: default;
-	}
+.c-btn.disabled,
+.c-btn[disabled] {
+	cursor: default;
+}
 
-	&--block {
-		width: 100%;
-		display: block;
-		padding-left: 0;
-		padding-right: 0;
-	}
+.c-btn--block {
+	width: 100%;
+	display: block;
+	padding-left: 0;
+	padding-right: 0;
 }

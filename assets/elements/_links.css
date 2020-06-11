@@ -3,17 +3,17 @@ a {
 	color: var(--color-action);
 	text-decoration: underline;
 	cursor: pointer;
+}
 
-	@media (--hover) {
-		&:hover {
-			text-decoration: none;
-		}
-	}
-
-	&[href^='tel'] {
-		color: inherit;
-		cursor: default;
+@media (--hover) {
+	a:hover {
 		text-decoration: none;
-		appearance: none;
 	}
+}
+
+a[href^='tel'] {
+	color: inherit;
+	cursor: default;
+	text-decoration: none;
+	appearance: none;
 }

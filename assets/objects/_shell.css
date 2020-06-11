@@ -5,12 +5,12 @@
 	padding-left: 1rem;
 	margin-right: auto;
 	margin-left: auto;
+}
 
-	&--flex {
-		@mixin flex-row; /* stylelint-disable-line */
-	}
+.o-shell--flex {
+	@mixin flex-row;
+}
 
-	&--fluid {
-		max-width: none;
-	}
+.o-shell--fluid {
+	max-width: none;
 }

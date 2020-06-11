@@ -1,20 +1,20 @@
 /* Flexbox Mixins */
 
 /* prettier-ignore */
-@define-mixin flex $align, $justify { /* stylelint-disable-line */
+@define-mixin flex $align, $justify {
 	display: flex;
 	align-items: $align;
 	justify-content: $justify;
 }
 
 /* prettier-ignore */
-@define-mixin flex-row $wrap: wrap, $align: stretch, $justify: space-between { /* stylelint-disable-line */
+@define-mixin flex-row $wrap: wrap, $align: stretch, $justify: space-between {
 	flex-flow: row $wrap;
-	@mixin flex $align, $justify; /* stylelint-disable-line */
+	@mixin flex $align, $justify;
 }
 
 /* prettier-ignore */
-@define-mixin flex-column $wrap: nowrap, $align: stretch, $justify: space-between { /* stylelint-disable-line */
+@define-mixin flex-column $wrap: nowrap, $align: stretch, $justify: space-between {
 	flex-flow: column $wrap;
-	@mixin flex $align, $justify; /* stylelint-disable-line */
+	@mixin flex $align, $justify;
 }

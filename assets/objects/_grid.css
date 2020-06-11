@@ -1,32 +1,32 @@
 /* Grid */
 .o-grid {
-	@mixin flex-row wrap, stretch, space-between; /* stylelint-disable-line */
+	@mixin flex-row wrap, stretch, space-between;
+}
 
-	&__item {
-		flex: 0 0 100%;
+.o-grid__item {
+	flex: 0 0 100%;
+}
 
-		&--1of2 {
-			flex: 0 0 50%;
-		}
+.o-grid__item--1of2 {
+	flex: 0 0 50%;
+}
 
-		&--1of4 {
-			flex: 0 0 25%;
-		}
+.o-grid__item--1of4 {
+	flex: 0 0 25%;
+}
 
-		&--1of3 {
-			flex: 0 0 calc(100% / 3);
-		}
+.o-grid__item--1of3 {
+	flex: 0 0 calc(100% / 3);
+}
 
-		&--2of3 {
-			flex: 0 0 66.66667%;
-		}
+.o-grid__item--2of3 {
+	flex: 0 0 66.66667%;
+}
 
-		&--1of5 {
-			flex: 0 0 20%;
-		}
+.o-grid__item--1of5 {
+	flex: 0 0 20%;
+}
 
-		&--1of6 {
-			flex: 0 0 calc(100% / 6);
-		}
-	}
+.o-grid__item--1of6 {
+	flex: 0 0 calc(100% / 6);
 }
