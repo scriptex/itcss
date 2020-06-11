@@ -1,39 +1,39 @@
 /* Settings */
-@import 'assets/settings/_text.css';
-@import 'assets/settings/_colors.css';
-@import 'assets/settings/_variables.css';
-@import 'assets/settings/_transitions.css';
+@import './assets/settings/_text.css';
+@import './assets/settings/_colors.css';
+@import './assets/settings/_variables.css';
+@import './assets/settings/_transitions.css';
 
 /* Tools */
-@import 'assets/tools/_flexbox.css';
-@import 'assets/tools/_mixins.css';
-@import 'assets/tools/_media-queries.css';
-@import 'assets/tools/_chevron.css';
+@import './assets/tools/_flexbox.css';
+@import './assets/tools/_mixins.css';
+@import './assets/tools/_media-queries.css';
+@import './assets/tools/_chevron.css';
 
 /* Generic */
-@import 'assets/generic/_reset.css';
-@import 'assets/generic/_form_elements.css';
-@import 'assets/generic/_transitions.css';
+@import './assets/generic/_reset.css';
+@import './assets/generic/_form_elements.css';
+@import './assets/generic/_transitions.css';
 
 /* Elements */
-@import 'assets/elements/_document.css';
-@import 'assets/elements/_headings.css';
-@import 'assets/elements/_texts.css';
-@import 'assets/elements/_links.css';
+@import './assets/elements/_document.css';
+@import './assets/elements/_headings.css';
+@import './assets/elements/_texts.css';
+@import './assets/elements/_links.css';
 
 /* Objects */
-@import 'assets/objects/_wrapper.css';
-@import 'assets/objects/_shell.css';
-@import 'assets/objects/_main.css';
-@import 'assets/objects/_grid.css';
+@import './assets/objects/_wrapper.css';
+@import './assets/objects/_shell.css';
+@import './assets/objects/_main.css';
+@import './assets/objects/_grid.css';
 
 /* Components */
-@import 'assets/components/_btn.css';
-@import 'assets/components/_lists.css';
+@import './assets/components/_btn.css';
+@import './assets/components/_lists.css';
 
 /* Utilities */
-@import 'assets/utilities/_text_align.css';
-@import 'assets/utilities/_align.css';
-@import 'assets/utilities/_hidden.css';
-@import 'assets/utilities/_fullsize_background.css';
-@import 'assets/utilities/_responsive_utilities.css';
+@import './assets/utilities/_text_align.css';
+@import './assets/utilities/_align.css';
+@import './assets/utilities/_hidden.css';
+@import './assets/utilities/_fullsize_background.css';
+@import './assets/utilities/_responsive_utilities.css';
