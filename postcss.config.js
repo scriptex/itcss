@@ -15,6 +15,7 @@ module.exports = {
 		require('postcss-nested'),
 		require('postcss-mixins'),
 		require('postcss-utilities'),
-		require('postcss-flexbugs-fixes')
+		require('postcss-flexbugs-fixes'),
+		require('postcss-custom-media')
 	]
 };

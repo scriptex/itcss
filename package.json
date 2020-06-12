@@ -23,6 +23,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"postcss-cli": "7.1.1",
+		"postcss-custom-media": "7.0.8",
 		"postcss-easy-import": "3.0.0",
 		"postcss-flexbugs-fixes": "4.2.1",
 		"postcss-mixins": "6.2.3",
