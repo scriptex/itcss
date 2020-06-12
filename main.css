@@ -346,11 +346,11 @@ body {
 	text-rendering: optimizeLegibility;
 }
 nav ul,
-	nav ol {
-		padding: 0;
-		margin: 0;
-		list-style: none outside none;
-	}
+nav ol {
+	padding: 0;
+	margin: 0;
+	list-style: none outside none;
+}
 table {
 	width: 100%;
 	border-collapse: collapse;
