@@ -5,7 +5,7 @@
 [![GitHub release](https://img.shields.io/github/release/scriptex/itcss.svg)](https://github.com/scriptex/itcss/releases/latest)
 [![GitHub issues](https://img.shields.io/github/issues/scriptex/itcss.svg)](https://github.com/scriptex/itcss/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/scriptex/itcss.svg)](https://github.com/scriptex/itcss/commits/master)
-[![Build Status](https://travis-ci.org/scriptex/itcss.svg?branch=master)](https://travis-ci.org/scriptex/itcss)
+[![Build Status](https://travis-ci.com/scriptex/itcss.svg?branch=master)](https://travis-ci.com/scriptex/itcss)
 [![npm](https://img.shields.io/npm/dt/itcss.svg)](https://www.npmjs.com/package/itcss)
 [![npm](https://img.shields.io/npm/v/itcss.svg)](https://www.npmjs.com/package/itcss)
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/itcss/README.md)](https://github.com/scriptex/itcss/)
