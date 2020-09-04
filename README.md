@@ -83,21 +83,94 @@ This means that you can use the most recent CSS features and be sure that they w
 
 In order to do so in your setup, please refer to the [`postcss.config.js`](./postcss.config.js) file.
 
-## Available CSS selectors and their purpose
+## Available files, selectors, variables and their usage
 
 ### Settings
 
--   `_colors.css` - contains all colors and theme Settings
--   `_text.css` - contains all text settings (font-size, font-family, etc)
--   `_transitions.css` - contains the default transition duration and timing function
--   `_variables.css` - contains all other variables
+-   `_colors.css` - contains CSS custom properties declared to the `:root` node for all colors
+-   `_text.css` - contains CSS custom properties declared to the `:root` node for all font settings
+-   `_transitions.css` - contains CSS custom properties declared to the `:root` node for transition duration and timing function
+-   `_variables.css` - contains CSS custom properties declared to the `:root` node for all other variables/settings
 
 ### Tools
 
 -   `_chevron.css` - a mixin for a directional arrow icon
--   `_flexbox.css` - a mixin for flex container
+
+	*Usage:*
+
+	```css
+	@mixin chevron
+		/* width and height */ 2rem,
+		/* border width */ 0 0 1px 1px,
+		/* border color */ var(--color-action),
+		/* margin */ -5px 0 0 0.5em,
+		/* rotation */ -135deg;
+	```
+
+-   `_flexbox.css` - a set of mixins for flexbox
+
+	*Contains three mixins:*
+
+	```css
+	/* General purpose flex container */
+	@mixin flex
+		/* align-items */ center
+		/* justify-content */ flex-end;
+
+	/* Flex container with flex-direction set to "row" */
+	@mixin flex-row
+		/* wrap */ no-wrap
+		/* align-items */ center
+		/* justify-content */ flex-end;
+
+	/* Flex container with flex-direction set to "column" */
+	@mixin flex-column
+		/* wrap */ no-wrap
+		/* align-items */ center
+		/* justify-content */ flex-end;
+	```
+
 -   `_media-queries.css` - mixins for all supported media queries
+
+	*Custom media queries:*
+
+	```css
+	/* (max-width: 1439px) */
+	@media (small-desktop) {}
+
+	/* (min-width: 1279px) */
+	@media (desktop-only) {}
+
+	/* (max-width: 1279px) */
+	@media (tablet-landscape) {}
+
+	/* (min-width: 1023px) and (max-width: 1279px) */
+	@media (tablet-landscape-only) {}
+
+	/* (max-width: 1023px) */
+	@media (tablet-portrait) {}
+
+	/* (min-width: 767px) and (max-width: 1023px) */
+	@media (tablet-portrait-only) {}
+
+	/* (max-width: 767px) */
+	@media (mobile) {}
+
+	/* (prefers-reduced-motion: reduce) */
+	@media (reduced-motion) {}
+
+	/* hover support */
+	@media (hover) {};
+	```
+
 -   `_mixins.css` - all other mixins
+
+	*Available mixins:*
+
+	```css
+	/* absolutely positions an element with known dimensions in the center of their relative parent element */
+	@mixin centered;
+	```
 
 ### Generic
 
@@ -115,22 +188,160 @@ In order to do so in your setup, please refer to the [`postcss.config.js`](./pos
 ### Objects
 
 -   `_grid.css` - a grid system
+
+	*Available selectors are:*
+
+	```css
+	/* defines a grid container */
+	.o-grid {}
+
+	/* defines a grid item */
+	.o-grid__item {}
+
+	/* specify a grid item's size */
+	.o-grid__item--1of2 {}
+	.o-grid__item--1of4 {}
+	.o-grid__item--1of3 {}
+	.o-grid__item--2of3 {}
+	.o-grid__item--1of5 {}
+	.o-grid__item--1of6 {}
+	```
+
 -   `_main.css` - styles for the `main` element
+
+	*Available selectors are:*
+
+	```css
+	/* defines the main content. used with <main> element */
+	.o-main {}
+	```
+
 -   `_shell.css` - styles for the site container
+
+	*Available selectors are:*
+
+	```css
+	/* defines the site container */
+	.o-shell {}
+
+	/* defines the site container as flex container */
+	.o-shell--flex {}
+
+	/* makes the site container take the whole browser width */
+	.o-shell--fluid {}
+	```
+
 -   `_wrapper.css` - styles for the site wrapper
+
+	*Available selectors are:*
+
+	```css
+	/* defines the parent container of all other elements. usually the only child of the <body> element */
+	.o-wrapper {}
+	```
 
 ### Components
 
 -   `_btn.css` - default styles for the buttons
--   `_list.css` - default styles for lists
+
+	*Available selectors are:*
+
+	```css
+	/* default styles for a button */
+	.c-btn {}
+
+	/* makes the button fill its parent's width */
+	.c-btn--block {}
+	```
+
+-   `_list.css` - default styles for lists. A list is an element with a classname which starts with `c-list`
 
 ### Utilities
 
 -   `_align.css` - alignment class utilities
+
+	*Available selectors are:*
+
+	```css
+	/* align to the left */
+	.alignleft {}
+
+	/* align to the right */
+	.alignright {}
+
+	/* clear the alignment */
+	.alignnone {}
+
+	/* clear the alignment and center horizontally */
+	.aligncenter {}
+	```
+
 -   `_fullsize-background.css` - helper for background image
+
+	*Available selectors are:*
+
+	```css
+	/* makes the element's background image take the whole size of the element using "background-size: cover" */
+	.fullsize-background {}
+	```
+
 -   `_hidden.css` - helper class/attribute for hidden elements
--   `_responsive-utilities.css` - helpers for showing/hiding elements on different resolutions
+
+	*Available selectors are:*
+
+	```css
+	.hidden,
+	[hidden] {}
+	```
+
+-   `_preferences.css` - contains user preferences settings such as `reduced-motion` or `prefers-color-scheme` preferences.
+
+-   `_responsive-utilities.css` - helpers for showing/hiding elements on different resolutions. For resolutions reference please check the media queries section.
+
+	*Available selectors are:*
+
+	```css
+	.visible-xs-block {}
+	.visible-xs-inline {}
+	.visible-xs-inline-block {}
+	.visible-xs-flex {}
+	.visible-xs-inline-flex {}
+	.visible-sm-block {}
+	.visible-sm-inline {}
+	.visible-sm-inline-block {}
+	.visible-sm-flex {}
+	.visible-sm-inline-flex {}
+	.visible-md-block {}
+	.visible-md-inline {}
+	.visible-md-inline-block {}
+	.visible-md-flex {}
+	.visible-md-inline-flex {}
+	.visible-lg-block {}
+	.visible-lg-inline {}
+	.visible-lg-inline-block {}
+	.visible-lg-flex {}
+	.visible-lg-inline-flex {}
+
+	.hidden-xs {}
+	.hidden-sm {}
+	.hidden-md {}
+	.hidden-lg {}
+	```
+
 -   `_text-align.css` - text alignment utilities
+
+	*Available selectors are:*
+
+	```css
+	/* align text to the left */
+	.text-left {}
+
+	/* align text to the center */
+	.text-center {}
+
+	/* align text to the right */
+	.text-right {}
+	```
 
 ## Support this project
 
