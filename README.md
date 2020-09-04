@@ -16,6 +16,10 @@ A starter boilerplate based on the [ITCSS](https://www.xfive.co/blog/itcss-scala
 
 This boilerplate is intented to be used as a starting point in your application. You should use this as a foundation for your CSS and build on top of it.
 
+If you want to use the full capabilities of this boilerplate such as variables, mixins, etc., then you should include it in your PostCSS files.
+
+You can also use the build which is plain CSS but lacks mixins, custom media queries and other useful tools.
+
 ## Install
 
 ```sh
