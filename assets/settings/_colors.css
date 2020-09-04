@@ -5,3 +5,12 @@
 	--color-secondary: #000;
 	--color-action: #ef4c23;
 }
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--color-base: #ccc;
+		--color-primary: #000;
+		--color-secondary: #fff;
+		--color-action: #ef4c23;
+	}
+}
