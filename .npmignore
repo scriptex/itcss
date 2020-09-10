@@ -39,4 +39,6 @@ renovate.json
 postcss.config.js
 
 # Project specific
+.github
+.whitesource
 itcss.svg
