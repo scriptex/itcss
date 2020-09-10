@@ -43,12 +43,14 @@ ul ul {
 }
 /**
  * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge 18- and IE.
+ * 2. Correct the inheritance of border color in Firefox.
+ * 3. Show the overflow in Edge 18- and IE.
  */
 hr {
   box-sizing: content-box; /* 1 */
+  color: inherit; /* 2 */
   height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  overflow: visible; /* 3 */
 }
 /**
  * Add the correct display in IE.
@@ -103,6 +105,16 @@ small {
  */
 svg:not(:root) {
   overflow: hidden;
+}
+/* Tabular data
+ * ========================================================================== */
+/**
+ * 1. Correct table border color inheritance in all Chrome, Edge, and Safari.
+ * 2. Remove text indentation from table contents in Chrome, Edge, and Safari.
+ */
+table {
+  border-color: inherit; /* 1 */
+  text-indent: 0; /* 2 */
 }
 /* Forms
  * ========================================================================== */
@@ -300,6 +312,22 @@ template {
 	--color-secondary: #000;
 	--color-action: #ef4c23;
 }
+@media (color-index: 70) {
+	:root {
+		--color-base: #ccc;
+		--color-primary: #000;
+		--color-secondary: #fff;
+		--color-action: #ef4c23;
+	}
+}
+@media (prefers-color-scheme: light) {
+	:root {
+		--color-base: #ccc;
+		--color-primary: #000;
+		--color-secondary: #fff;
+		--color-action: #ef4c23;
+	}
+}
 /* Variables */
 :root {
 	--shell-width: 75rem;
@@ -341,7 +369,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: none;
 	   -moz-text-size-adjust: none;
-	    -ms-text-size-adjust: none;
 	        text-size-adjust: none;
 	text-rendering: optimizeLegibility;
 }
@@ -454,10 +481,6 @@ input:-ms-input-placeholder {
 	color: inherit;
 	opacity: 1;
 }
-input::-ms-input-placeholder {
-	color: inherit;
-	opacity: 1;
-}
 input::placeholder {
 	color: inherit;
 	opacity: 1;
@@ -467,10 +490,6 @@ textarea::-moz-placeholder {
 	opacity: 1;
 }
 textarea:-ms-input-placeholder {
-	color: inherit;
-	opacity: 1;
-}
-textarea::-ms-input-placeholder {
 	color: inherit;
 	opacity: 1;
 }
@@ -857,5 +876,15 @@ a[href^='tel'] {
 
 	.visible-lg-inline-flex {
 		display: inline-flex !important;
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	* {
+		-webkit-animation-duration: 0.01ms !important;
+		        animation-duration: 0.01ms !important;
+		-webkit-animation-iteration-count: 1 !important;
+		        animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
 	}
 }
