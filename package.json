@@ -26,7 +26,7 @@
 		"postcss-custom-media": "7.0.8",
 		"postcss-easy-import": "3.0.0",
 		"postcss-flexbugs-fixes": "4.2.1",
-		"postcss-mixins": "6.2.3",
+		"postcss-mixins": "7.0.0",
 		"postcss-nested": "4.2.3",
 		"postcss-normalize": "9.0.0",
 		"postcss-preset-env": "6.7.0",
