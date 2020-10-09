@@ -22,7 +22,7 @@
 	"style": "index.css",
 	"dependencies": {},
 	"devDependencies": {
-		"postcss-cli": "8.0.0",
+		"postcss-cli": "8.1.0",
 		"postcss-custom-media": "7.0.8",
 		"postcss-easy-import": "3.0.0",
 		"postcss-flexbugs-fixes": "4.2.1",
