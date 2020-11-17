@@ -1,4 +1,3 @@
-/* Grid */
 .o-grid {
 	@mixin flex-row wrap, stretch, space-between;
 }

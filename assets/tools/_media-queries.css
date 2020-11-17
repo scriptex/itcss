@@ -1,4 +1,3 @@
-/* Custom Media Queries */
 @custom-media --small-desktop (max-width: 1439px);
 @custom-media --desktop-only (min-width: 1279px);
 @custom-media --tablet-landscape (max-width: 1279px);
@@ -8,5 +7,4 @@
 @custom-media --mobile (max-width: 767px);
 @custom-media --reduced-motion (prefers-reduced-motion: reduce);
 
-/* prettier-ignore */
 @custom-media --hover (-ms-high-contrast: none), (-ms-high-contrast: active), (-moz-touch-enabled: 0), (hover);

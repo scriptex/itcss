@@ -1,6 +1,3 @@
-/* Mixin for centering elements with known dimensions (or images) */
-
-/* prettier-ignore */
 @define-mixin centered {
 	position: absolute;
 	top: 0;
