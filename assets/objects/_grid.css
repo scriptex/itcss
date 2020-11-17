@@ -1,9 +1,11 @@
 .o-grid {
 	@mixin flex-row wrap, stretch, space-between;
+	margin: 0 calc(-1 * var(--gap));
 }
 
 .o-grid__item {
 	flex: 0 0 100%;
+	padding: 0 var(--gap);
 }
 
 .o-grid__item--1of2 {

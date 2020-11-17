@@ -1,3 +1,6 @@
 :root {
+	--gap: 0.5rem;
+	--columns: 12;
+	--shell-gap: 1rem;
 	--shell-width: 75rem;
 }

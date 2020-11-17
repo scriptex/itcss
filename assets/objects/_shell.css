@@ -1,7 +1,7 @@
 .o-shell {
 	max-width: var(--shell-width);
-	padding-right: 1rem;
-	padding-left: 1rem;
+	padding-right: var(--shell-gap);
+	padding-left: var(--shell-gap);
 	margin-right: auto;
 	margin-left: auto;
 }
