@@ -1,10 +1,10 @@
-@custom-media --small-desktop (max-width: 1439px);
-@custom-media --desktop-only (min-width: 1279px);
-@custom-media --tablet-landscape (max-width: 1279px);
-@custom-media --tablet-landscape-only (min-width: 1023px) and (max-width: 1279px);
-@custom-media --tablet-portrait (max-width: 1023px);
-@custom-media --tablet-portrait-only (min-width: 767px) and (max-width: 1023px);
-@custom-media --mobile (max-width: 767px);
+@custom-media --small-desktop (max-width: var(--small-desktop));
+@custom-media --desktop-only (min-width: var(--tablet-landscape));
+@custom-media --tablet-landscape (max-width: var(--tablet-landscape));
+@custom-media --tablet-landscape-only (min-width: var(--tablet-portait)) and (max-width: var(--tablet-landscape));
+@custom-media --tablet-portrait (max-width: var(--tablet-portait));
+@custom-media --tablet-portrait-only (min-width: var(--mobile)) and (max-width: var(--tablet-portait));
+@custom-media --mobile (max-width: var(--mobile));
 @custom-media --reduced-motion (prefers-reduced-motion: reduce);
 
 @custom-media --hover (-ms-high-contrast: none), (-ms-high-contrast: active), (-moz-touch-enabled: 0), (hover);

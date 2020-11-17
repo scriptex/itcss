@@ -881,6 +881,14 @@ postcss-double-position-gradients@^1.0.0:
     postcss "^7.0.5"
     postcss-values-parser "^2.0.0"
 
+postcss-each-variables@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/postcss-each-variables/-/postcss-each-variables-0.3.0.tgz#8b72940dbdfc0a87456190224e4e8b8268340324"
+  integrity sha512-WZLxE4pk0tAkNNFyH1g9iESZWV3cbksjTr9lokGj/Pw4VbaaO9bcfcNr1ciHOWJfdFSOfLBj0WdYzgzNmRD8fg==
+  dependencies:
+    postcss "^6.0.1"
+    reduce-function-call "^1.0.2"
+
 postcss-easy-import@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/postcss-easy-import/-/postcss-easy-import-3.0.0.tgz#8eaaf5ae59566083d0cae98735dfd803e3ab194d"
@@ -1244,6 +1252,13 @@ readdirp@~3.5.0:
   integrity sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==
   dependencies:
     picomatch "^2.2.1"
+
+reduce-function-call@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/reduce-function-call/-/reduce-function-call-1.0.3.tgz#60350f7fb252c0a67eb10fd4694d16909971300f"
+  integrity sha512-Hl/tuV2VDgWgCSEeWMLwxLZqX7OK59eU1guxXsRKTAyeYimivsKdtcV4fu3r710tpG5GmDKDhQ0HSZLExnNmyQ==
+  dependencies:
+    balanced-match "^1.0.0"
 
 require-directory@^2.1.1:
   version "2.1.1"

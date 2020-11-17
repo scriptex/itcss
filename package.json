@@ -25,6 +25,7 @@
 		"postcss": "8.1.7",
 		"postcss-cli": "8.2.0",
 		"postcss-custom-media": "7.0.8",
+		"postcss-each-variables": "0.3.0",
 		"postcss-easy-import": "3.0.0",
 		"postcss-flexbugs-fixes": "5.0.1",
 		"postcss-mixins": "7.0.1",

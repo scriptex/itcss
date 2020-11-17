@@ -3,4 +3,28 @@
 	--columns: 12;
 	--shell-gap: 1rem;
 	--shell-width: 75rem;
+	--mobile: 767px;
+	--tablet-portrait: 1023px;
+	--tablet-landscape: 1279px;
+	--small-desktop: 1439px;
+	--breakpoints: (
+		xs: (
+			min: 0,
+			max: var(--mobile)
+		),
+		sm: (
+			min: calc(var(--mobile) + 1px) max: var(--tablet-portrait)
+		),
+		md: (
+			min: calc(var(--tablet-portrait) + 1px) max: var(--tablet-landscape)
+		),
+		lg: (
+			min: calc(var(--tablet-landscape) + 1px) max: var(--small-desktop)
+		),
+		xl: (
+			min: calc(var(--small-desktop) + 1px)
+		)
+	);
+	--displays: 'block', 'inline', 'inline-block', 'flex', 'inline-flex';
+	--alignments: 'center', 'right', 'left', 'justify';
 }

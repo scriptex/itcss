@@ -16,6 +16,7 @@ module.exports = {
 		require('postcss-mixins'),
 		require('postcss-utilities'),
 		require('postcss-flexbugs-fixes'),
-		require('postcss-custom-media')
+		require('postcss-custom-media'),
+		require('postcss-each-variables')
 	]
 };
