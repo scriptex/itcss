@@ -27,6 +27,7 @@
 
 @import './assets/utilities/_text_align.css';
 @import './assets/utilities/_align.css';
+@import './assets/utilities/_clear.css';
 @import './assets/utilities/_hidden.css';
 @import './assets/utilities/_fullsize_background.css';
 @import './assets/utilities/_responsive_utilities.css';

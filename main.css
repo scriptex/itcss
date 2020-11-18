@@ -987,6 +987,19 @@ a[href^='tel'] {
 	margin: 0.5rem auto 1rem;
 	margin: var(--gap) auto calc(var(--gap)*2);
 }
+.clear::after, .clear-left::after, .clear-right::after {
+		content: '';
+		display: block;
+	}
+.clear::after {
+		clear: both;
+	}
+.clear-left::after {
+		clear: left;
+	}
+.clear-right::after {
+		clear: right;
+	}
 .fullsize-background {
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
