@@ -1,5 +1,4 @@
-/* Hidden Utilities */
 .hidden,
 [hidden] {
-	display: none !important;
+	@extend display-none;
 }

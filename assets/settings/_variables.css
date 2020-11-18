@@ -1,4 +1,9 @@
-/* Variables */
 :root {
+	--gap: 0.5rem;
+	--columns: 12;
+	--shell-gap: 1rem;
 	--shell-width: 75rem;
+	--breakpoints: (xs, sm, md, lg, xl);
+	--displays: (block, inline, inline-block, flex, inline-flex);
+	--alignments: (center: center, right: right, left: left, justify: justify);
 }

@@ -1,6 +1,3 @@
-/* Mixin for centering elements with known dimensions (or images) */
-
-/* prettier-ignore */
 @define-mixin centered {
 	position: absolute;
 	top: 0;
@@ -8,4 +5,34 @@
 	bottom: 0;
 	left: 0;
 	margin: auto;
+}
+
+@define-mixin breakpoint-helpers $breakpoint {
+	.hidden-$(breakpoint) {
+		display: none !important;
+	}
+
+	@each $display in var(--displays) {
+		.visible-$(breakpoint)-$(display) {
+			display: $(display) !important;
+		}
+	}
+}
+
+@define-mixin display $value {
+	display: $value !important;
+}
+
+@define-mixin grid $breakpoint {
+	/* TODO: get the columns count dynamically */
+	@for $i from 1 to 12 {
+		.$(breakpoint)-$i {
+			max-width: calc($i / 12 * 100%);
+			flex-basis: calc($i / 12 * 100%);
+		}
+	}
+}
+
+@define-extend display-none {
+	display: none !important;
 }

@@ -35,6 +35,7 @@ yarn.lock
 .prettierignore
 
 # Config files
+now.json
 renovate.json
 postcss.config.js
 

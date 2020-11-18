@@ -1,127 +1,27 @@
-/* Responsive Utility Classes */
-.visible-xs-block,
-.visible-xs-inline,
-.visible-xs-inline-block,
-.visible-xs-flex,
-.visible-xs-inline-flex,
-.visible-sm-block,
-.visible-sm-inline,
-.visible-sm-inline-block,
-.visible-sm-flex,
-.visible-sm-inline-flex,
-.visible-md-block,
-.visible-md-inline,
-.visible-md-inline-block,
-.visible-md-flex,
-.visible-md-inline-flex,
-.visible-lg-block,
-.visible-lg-inline,
-.visible-lg-inline-block,
-.visible-lg-flex,
-.visible-lg-inline-flex {
-	display: none !important;
-}
-
-@media (--mobile) {
-	.hidden-xs {
-		display: none !important;
-	}
-
-	.visible-xs-block {
-		display: block !important;
-	}
-
-	.visible-xs-inline {
-		display: inline !important;
-	}
-
-	.visible-xs-inline-block {
-		display: inline-block !important;
-	}
-
-	.visible-xs-flex {
-		display: flex !important;
-	}
-
-	.visible-xs-inline-flex {
-		display: inline-flex !important;
+@each $bp in var(--breakpoints) {
+	@each $display in var(--displays) {
+		.visible-$(bp)-$(display) {
+			@extend display-none;
+		}
 	}
 }
 
-@media (--tablet-portrait-only) {
-	.hidden-sm {
-		display: none !important;
-	}
-
-	.visible-sm-block {
-		display: block !important;
-	}
-
-	.visible-sm-inline {
-		display: inline !important;
-	}
-
-	.visible-sm-inline-block {
-		display: inline-block !important;
-	}
-
-	.visible-sm-flex {
-		display: flex !important;
-	}
-
-	.visible-sm-inline-flex {
-		display: inline-flex !important;
-	}
+@media (--xs) {
+	@mixin breakpoint-helpers xs;
 }
 
-@media (--tablet-landscape-only) {
-	.hidden-md {
-		display: none !important;
-	}
-
-	.visible-md-block {
-		display: block !important;
-	}
-
-	.visible-md-inline {
-		display: inline !important;
-	}
-
-	.visible-md-inline-block {
-		display: inline-block !important;
-	}
-
-	.visible-md-flex {
-		display: flex !important;
-	}
-
-	.visible-md-inline-flex {
-		display: inline-flex !important;
-	}
+@media (--sm) {
+	@mixin breakpoint-helpers sm;
 }
 
-@media (--desktop-only) {
-	.hidden-lg {
-		display: none !important;
-	}
+@media (--md) {
+	@mixin breakpoint-helpers md;
+}
 
-	.visible-lg-block {
-		display: block !important;
-	}
+@media (--lg) {
+	@mixin breakpoint-helpers lg;
+}
 
-	.visible-lg-inline {
-		display: inline !important;
-	}
-
-	.visible-lg-inline-block {
-		display: inline-block !important;
-	}
-
-	.visible-lg-flex {
-		display: flex !important;
-	}
-
-	.visible-lg-inline-flex {
-		display: inline-flex !important;
-	}
+@media (--xl) {
+	@mixin breakpoint-helpers xl;
 }

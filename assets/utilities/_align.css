@@ -1,12 +1,11 @@
-/* Alignment Utilities */
 .alignleft {
 	float: left;
-	margin: 0.3125rem 1.25rem 1.25rem 0;
+	margin: var(--gap) calc(2 * var(--gap)) calc(2 * var(--gap)) 0;
 }
 
 .alignright {
 	float: right;
-	margin: 0.3125rem 0 1.25rem 1.25rem;
+	margin: var(--gap) 0 calc(2 * var(--gap)) calc(2 * var(--gap));
 }
 
 .alignnone,
@@ -15,10 +14,10 @@
 }
 
 .alignnone {
-	margin: 0.3125rem 0 1.25rem;
+	margin: var(--gap) 0 calc(2 * var(--gap));
 }
 
 .aligncenter {
 	display: block;
-	margin: 0.3125rem auto 1.25rem;
+	margin: var(--gap) auto calc(2 * var(--gap));
 }

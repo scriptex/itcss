@@ -14,9 +14,13 @@ A starter boilerplate based on the [ITCSS](https://www.xfive.co/blog/itcss-scala
 
 ## About
 
+> ITCSS is a mobile-first, responsive, battle-tested CSS framework based on the ITCSS methodology utilizing the BEM methodology.
+
 This boilerplate is intented to be used as a starting point in your application. You should use this as a foundation for your CSS and build on top of it.
 
 If you want to use the full capabilities of this boilerplate such as variables, mixins, etc., then you should include it in your PostCSS files.
+
+You should also install the required PostCSS plugins and configure your PostCSS environment following the configuration file [here](https://github.com/scriptex/itcss/blob/master/postcss.config.js)
 
 You can also use the build which is plain CSS but lacks mixins, custom media queries and other useful tools.
 
@@ -69,8 +73,26 @@ There are several predefined variables which you can overwrite:
 	--timing: 0.4s;
 	--easing: ease-in-out;
 
-	/* Misc Variables */
+	/* Spacing between grid items */
+	$gap: 0.5rem;
+
+	/* Number of columns in the grid */
+	$columns: 12;
+
+	/* The maximum width of the shell container */
 	--shell-width: 75rem;
+
+	/* The left and right padding of the shell container */
+	$shell-gap: 1rem;
+
+	/* A list of responsive breakpoint names */
+	--breakpoints: (xs, sm, md, lg, xl);
+
+	/* A list of display properties */
+	--displays: (block, inline, inline-block, flex, inline-flex);
+
+	/* A list of text alignment properties */
+	--alignments: (center: center, right: right, left: left, justify: justify);
 }
 ```
 
@@ -85,7 +107,7 @@ This means that you can use the most recent CSS features and be sure that they w
 
 **The combined and built version of this boilerplate has been tested and works in all evergreen browsers (Chrome, Firefox, Edge, Opera, Safari, Brave, Vivaldi, iOS Safari, Chrome on Android, Samsung Internet) and IE 10+.**
 
-In order to do so in your setup, please refer to the [`postcss.config.js`](./postcss.config.js) file.
+In order to do so in your setup, please refer to the [`postcss.config.js`](https://github.com/scriptex/itcss/blob/master/postcss.config.js) file.
 
 ## Available files, selectors, variables and their usage
 
@@ -100,81 +122,133 @@ In order to do so in your setup, please refer to the [`postcss.config.js`](./pos
 
 -   `_chevron.css` - a mixin for a directional arrow icon
 
-	*Usage:*
+    _Usage:_
 
-	```css
-	@mixin chevron
-		/* width and height */ 2rem,
-		/* border width */ 0 0 1px 1px,
-		/* border color */ var(--color-action),
-		/* margin */ -5px 0 0 0.5em,
-		/* rotation */ -135deg;
-	```
+    ```css
+    /* prettier-ignore */
+    @mixin chevron
+    	2rem /* width and height */,
+    	0 0 1px 1px /* border width */,
+    	var(--color-action) /* border color */,
+    	-5px 0 0 0.5em /* margin */,
+    	-135deg /* rotation */;
+    ```
 
 -   `_flexbox.css` - a set of mixins for flexbox
 
-	*Contains three mixins:*
+    _Contains three mixins:_
 
-	```css
-	/* General purpose flex container */
-	@mixin flex
-		/* align-items */ center
-		/* justify-content */ flex-end;
+    ```css
+    /* General purpose flex container */
+    /* prettier-ignore */
+    @mixin flex
+    	center /* align-items */
+    	flex-end /* justify-content */;
 
-	/* Flex container with flex-direction set to "row" */
-	@mixin flex-row
-		/* wrap */ no-wrap
-		/* align-items */ center
-		/* justify-content */ flex-end;
+    /* Flex container with flex-direction set to "row" */
+    /* prettier-ignore */
+    @mixin flex-row
+    	no-wrap /* wrap */
+    	center /* align-items */
+    	flex-end /* justify-content */;
 
-	/* Flex container with flex-direction set to "column" */
-	@mixin flex-column
-		/* wrap */ no-wrap
-		/* align-items */ center
-		/* justify-content */ flex-end;
-	```
+    /* Flex container with flex-direction set to "column" */
+    /* prettier-ignore */
+    @mixin flex-column
+    	no-wrap /* wrap */
+    	center /* align-items */
+    	flex-end /* justify-content */;
+    ```
 
 -   `_media-queries.css` - mixins for all supported media queries
 
-	*Custom media queries:*
+    _Custom media queries:_
 
-	```css
-	/* (max-width: 1439px) */
-	@media (small-desktop) {}
+    ```css
+    /* (max-width: 1439px) */
+    @media (--small-desktop) {
+    }
 
-	/* (min-width: 1279px) */
-	@media (desktop-only) {}
+    /* (max-width: 1279px) */
+    @media (--tablet-landscape) {
+    }
 
-	/* (max-width: 1279px) */
-	@media (tablet-landscape) {}
+    /* (max-width: 1023px) */
+    @media (--tablet-portrait) {
+    }
 
-	/* (min-width: 1023px) and (max-width: 1279px) */
-	@media (tablet-landscape-only) {}
+    /* (max-width: 767px) */
+    @media (--mobile) {
+    }
 
-	/* (max-width: 1023px) */
-	@media (tablet-portrait) {}
+    /* (max-width: 767px) */
+    @media (--xs) {
+    }
 
-	/* (min-width: 767px) and (max-width: 1023px) */
-	@media (tablet-portrait-only) {}
+    /* (min-width: 768px) and (max-width: 1023px) */
+    @media (--sm) {
+    }
 
-	/* (max-width: 767px) */
-	@media (mobile) {}
+    /* (min-width: 1024px) and (max-width: 1279px) */
+    @media (--md) {
+    }
 
-	/* (prefers-reduced-motion: reduce) */
-	@media (reduced-motion) {}
+    /* (min-width: 1280px) and (max-width: 1439px) */
+    @media (--lg) {
+    }
 
-	/* hover support */
-	@media (hover) {};
-	```
+    /* (min-width: 1439px) */
+    @media (--xl) {
+    }
+
+    /* (min-width: 0) */
+    @media (--xs-up) {
+    }
+    /* (min-width: 768px) */
+    @media (--sm-up) {
+    }
+    /* (min-width: 1024px) */
+    @media (--md-up) {
+    }
+    /* (min-width: 1280px) */
+    @media (--lg-up) {
+    }
+    /* (min-width: 1439px) */
+    @media (--xl-up) {
+    }
+
+    /* (prefers-reduced-motion: reduce) */
+    @media (--reduced-motion) {
+    }
+
+    /* hover support */
+    @media (--hover) {
+    } ;
+    ```
 
 -   `_mixins.css` - all other mixins
 
-	*Available mixins:*
+    _Available mixins:_
 
-	```css
-	/* absolutely positions an element with known dimensions in the center of their relative parent element */
-	@mixin centered;
-	```
+    ```css
+    /* absolutely positions an element with known dimensions in the center of their relative parent element */
+    @mixin centered;
+
+    /**
+    	generates rules for responsive helpers
+    	$breakpoint: a breakpoint prefix such as xs, sm, md, lg or xl
+    */
+    @mixin breakpoint-helpers $breakpoint;
+
+    /* creates !important declaration for the given $display argument */
+    @mixin display $value;
+
+    /**
+    	generates rules for grid columns for a given breakpoint
+    	$breakpoint: a breakpoint prefix such as xs, sm, md, lg or xl
+    */
+    @mixin grid $breakpoint;
+    ```
 
 ### Generic
 
@@ -185,7 +259,7 @@ In order to do so in your setup, please refer to the [`postcss.config.js`](./pos
 ### Elements
 
 -   `_document.css` - default styles for the `body` element
--   `_headings.css` - default styles for all h\* (h1 - h6) tags
+-   `_headings.css` - default styles for all heading (h1 - h6) tags
 -   `_links.css` - default styles for anchors
 -   `_texts.css` - default styles for text elements
 
@@ -193,70 +267,89 @@ In order to do so in your setup, please refer to the [`postcss.config.js`](./pos
 
 -   `_grid.css` - a grid system
 
-	*Available selectors are:*
+    _Available selectors are:_
 
-	```css
-	/* defines a grid container */
-	.o-grid {}
+    ```css
+    /* defines a grid container */
+    .o-grid {
+    }
 
-	/* defines a grid item */
-	.o-grid__item {}
+    /* defines a grid item */
+    .o-grid__item {
+    }
 
-	/* specify a grid item's size */
-	.o-grid__item--1of2 {}
-	.o-grid__item--1of4 {}
-	.o-grid__item--1of3 {}
-	.o-grid__item--2of3 {}
-	.o-grid__item--1of5 {}
-	.o-grid__item--1of6 {}
-	```
+    /**
+    	depending on the --breakpoints variables
+    	the following selectors will vary.
+    	1 means 1/12 of the available width.
+    	12 means all of the available width.
+    	Here are the defaults
+    */
+    /* From 0 to 767px */
+    .xs-1 to .xs-12
+    /* From 768px to 1023px */
+    .sm-1 to .sm-12
+    /* From 1024px to 1279px */
+    .md-1 to .md-12
+    /* From 1280px to 1439px */
+    .lg-1 to .lg-12
+    /* From 1440px above */
+    .xl-1 to .xl-12;
+    ```
 
 -   `_main.css` - styles for the `main` element
 
-	*Available selectors are:*
+    _Available selectors are:_
 
-	```css
-	/* defines the main content. used with <main> element */
-	.o-main {}
-	```
+    ```css
+    /* defines the main content. used with <main> element */
+    .o-main {
+    }
+    ```
 
 -   `_shell.css` - styles for the site container
 
-	*Available selectors are:*
+    _Available selectors are:_
 
-	```css
-	/* defines the site container */
-	.o-shell {}
+    ```css
+    /* defines the site container */
+    .o-shell {
+    }
 
-	/* defines the site container as flex container */
-	.o-shell--flex {}
+    /* defines the site container as flex container */
+    .o-shell--flex {
+    }
 
-	/* makes the site container take the whole browser width */
-	.o-shell--fluid {}
-	```
+    /* makes the site container take the whole browser width */
+    .o-shell--fluid {
+    }
+    ```
 
 -   `_wrapper.css` - styles for the site wrapper
 
-	*Available selectors are:*
+    _Available selectors are:_
 
-	```css
-	/* defines the parent container of all other elements. usually the only child of the <body> element */
-	.o-wrapper {}
-	```
+    ```css
+    /* defines the parent container of all other elements. usually the only child of the <body> element */
+    .o-wrapper {
+    }
+    ```
 
 ### Components
 
 -   `_btn.css` - default styles for the buttons
 
-	*Available selectors are:*
+    _Available selectors are:_
 
-	```css
-	/* default styles for a button */
-	.c-btn {}
+    ```css
+    /* default styles for a button */
+    .c-btn {
+    }
 
-	/* makes the button fill its parent's width */
-	.c-btn--block {}
-	```
+    /* makes the button fill its parent's width */
+    .c-btn--block {
+    }
+    ```
 
 -   `_list.css` - default styles for lists. A list is an element with a classname which starts with `c-list`
 
@@ -264,88 +357,149 @@ In order to do so in your setup, please refer to the [`postcss.config.js`](./pos
 
 -   `_align.css` - alignment class utilities
 
-	*Available selectors are:*
+    _Available selectors are:_
 
-	```css
-	/* align to the left */
-	.alignleft {}
+    ```css
+    /* align to the left */
+    .alignleft {
+    }
 
-	/* align to the right */
-	.alignright {}
+    /* align to the right */
+    .alignright {
+    }
 
-	/* clear the alignment */
-	.alignnone {}
+    /* clear the alignment */
+    .alignnone {
+    }
 
-	/* clear the alignment and center horizontally */
-	.aligncenter {}
-	```
+    /* clear the alignment and center horizontally */
+    .aligncenter {
+    }
+    ```
+
+-   `_clear.scss` - utilites to clear after floats
+
+    _Available selectors are:_
+
+    ```css
+    /* clear both */
+    .clear {
+    }
+    /* clear right */
+    .clear-right {
+    }
+    /* clear left */
+    .clear-left {
+    }
+    ```
 
 -   `_fullsize-background.css` - helper for background image
 
-	*Available selectors are:*
+    _Available selectors are:_
 
-	```css
-	/* makes the element's background image take the whole size of the element using "background-size: cover" */
-	.fullsize-background {}
-	```
+    ```css
+    /* makes the element's background image take the whole size of the element using "background-size: cover" */
+    .fullsize-background {
+    }
+    ```
 
 -   `_hidden.css` - helper class/attribute for hidden elements
 
-	*Available selectors are:*
+    _Available selectors are:_
 
-	```css
-	.hidden,
-	[hidden] {}
-	```
+    ```css
+    .hidden,
+    [hidden] {
+    }
+    ```
 
 -   `_preferences.css` - contains user preferences settings such as `reduced-motion` or `prefers-color-scheme` preferences.
 
 -   `_responsive-utilities.css` - helpers for showing/hiding elements on different resolutions. For resolutions reference please check the media queries section.
 
-	*Available selectors are:*
+    _Available selectors are:_
 
-	```css
-	.visible-xs-block {}
-	.visible-xs-inline {}
-	.visible-xs-inline-block {}
-	.visible-xs-flex {}
-	.visible-xs-inline-flex {}
-	.visible-sm-block {}
-	.visible-sm-inline {}
-	.visible-sm-inline-block {}
-	.visible-sm-flex {}
-	.visible-sm-inline-flex {}
-	.visible-md-block {}
-	.visible-md-inline {}
-	.visible-md-inline-block {}
-	.visible-md-flex {}
-	.visible-md-inline-flex {}
-	.visible-lg-block {}
-	.visible-lg-inline {}
-	.visible-lg-inline-block {}
-	.visible-lg-flex {}
-	.visible-lg-inline-flex {}
-
-	.hidden-xs {}
-	.hidden-sm {}
-	.hidden-md {}
-	.hidden-lg {}
-	```
+    ```css
+    .visible-xs-block {
+    }
+    .visible-xs-inline {
+    }
+    .visible-xs-inline-block {
+    }
+    .visible-xs-flex {
+    }
+    .visible-xs-inline-flex {
+    }
+    .visible-sm-block {
+    }
+    .visible-sm-inline {
+    }
+    .visible-sm-inline-block {
+    }
+    .visible-sm-flex {
+    }
+    .visible-sm-inline-flex {
+    }
+    .visible-md-block {
+    }
+    .visible-md-inline {
+    }
+    .visible-md-inline-block {
+    }
+    .visible-md-flex {
+    }
+    .visible-md-inline-flex {
+    }
+    .visible-lg-block {
+    }
+    .visible-lg-inline {
+    }
+    .visible-lg-inline-block {
+    }
+    .visible-lg-flex {
+    }
+    .visible-lg-inline-flex {
+    }
+    .visible-xl-block {
+    }
+    .visible-xl-inline {
+    }
+    .visible-xl-inline-block {
+    }
+    .visible-xl-flex {
+    }
+    .visible-xl-inline-flex {
+    }
+    .hidden-xs {
+    }
+    .hidden-sm {
+    }
+    .hidden-md {
+    }
+    .hidden-lg {
+    }
+    .hidden-xl {
+    }
+    ```
 
 -   `_text-align.css` - text alignment utilities
 
-	*Available selectors are:*
+    _Available selectors are:_
 
-	```css
-	/* align text to the left */
-	.text-left {}
-
-	/* align text to the center */
-	.text-center {}
-
-	/* align text to the right */
-	.text-right {}
-	```
+    ```css
+    /* align text to the left */
+    .text-left {
+    }
+    /* align text to the center */
+    .text-center {
+    }
+    /* align text to the right */
+    .text-right {
+    }
+    /* align text to the right */
+    .text-justify {
+    }
+    ```
 
 ## Support this project
 

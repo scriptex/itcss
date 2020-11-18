@@ -1,0 +1,26 @@
+.clear,
+.clear-left,
+.clear-right {
+	&::after {
+		content: '';
+		display: block;
+	}
+}
+
+.clear {
+	&::after {
+		clear: both;
+	}
+}
+
+.clear-left {
+	&::after {
+		clear: left;
+	}
+}
+
+.clear-right {
+	&::after {
+		clear: right;
+	}
+}
