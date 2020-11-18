@@ -3,7 +3,8 @@
 	"version": "1.7.0",
 	"description": "CSS starter boilerplate based on the ITCSS pattern",
 	"scripts": {
-		"build": "postcss index.css -o main.css -c postcss.config.js"
+		"build": "postcss index.css -o main.css -c postcss.config.js",
+		"deploy": "cp main.css demo/main.css"
 	},
 	"keywords": [
 		"CSS",
