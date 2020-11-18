@@ -6,3 +6,23 @@
 	left: 0;
 	margin: auto;
 }
+
+@define-mixin breakpoint-helpers $bp {
+	.hidden-$(bp) {
+		display: none !important;
+	}
+
+	@each $display in var(--displays) {
+		.visible-$(bp)-$(display) {
+			display: $(display) !important;
+		}
+	}
+}
+
+@define-mixin display $value {
+	display: $value !important;
+}
+
+@define-extend display-none {
+	display: none !important;
+}

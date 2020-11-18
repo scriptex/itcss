@@ -13,10 +13,12 @@ module.exports = {
 			forceImport: true
 		}),
 		require('postcss-nested'),
+		require('postcss-each-variables'),
+		require('postcss-each'),
 		require('postcss-mixins'),
+		require('postcss-extend'),
 		require('postcss-utilities'),
 		require('postcss-flexbugs-fixes'),
-		require('postcss-custom-media'),
-		require('postcss-each-variables')
+		require('postcss-custom-media')
 	]
 };
