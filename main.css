@@ -559,7 +559,7 @@ a[href^='tel'] {
 	padding: 0 0.5rem;
 	padding: 0 var(--gap);
 }
-@media (max-width: 767px) {
+@media (min-width: 0) {
 	.xs-1 {
 			max-width: 8.33333%;
 			flex-grow: 0;
@@ -633,7 +633,7 @@ a[href^='tel'] {
 			flex-basis: 100%;
 		}
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) {
 	.sm-1 {
 			max-width: 8.33333%;
 			flex-grow: 0;
@@ -707,7 +707,7 @@ a[href^='tel'] {
 			flex-basis: 100%;
 		}
 }
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) {
 	.md-1 {
 			max-width: 8.33333%;
 			flex-grow: 0;
@@ -781,7 +781,7 @@ a[href^='tel'] {
 			flex-basis: 100%;
 		}
 }
-@media (min-width: 1280px) and (max-width: 1439px) {
+@media (min-width: 1280px) {
 	.lg-1 {
 			max-width: 8.33333%;
 			flex-grow: 0;

@@ -7,5 +7,10 @@
 @custom-media --md (min-width: 1024px) and (max-width: 1279px);
 @custom-media --lg (min-width: 1280px) and (max-width: 1439px);
 @custom-media --xl (min-width: 1439px);
+@custom-media --xs-up (min-width: 0);
+@custom-media --sm-up (min-width: 768px);
+@custom-media --md-up (min-width: 1024px);
+@custom-media --lg-up (min-width: 1280px);
+@custom-media --xl-up (min-width: 1439px);
 @custom-media --reduced-motion (prefers-reduced-motion: reduce);
 @custom-media --hover (-ms-high-contrast: none), (-ms-high-contrast: active), (-moz-touch-enabled: 0), (hover);

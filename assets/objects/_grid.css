@@ -8,22 +8,22 @@
 	padding: 0 var(--gap);
 }
 
-@media (--xs) {
+@media (--xs-up) {
 	@mixin grid xs;
 }
 
-@media (--sm) {
+@media (--sm-up) {
 	@mixin grid sm;
 }
 
-@media (--md) {
+@media (--md-up) {
 	@mixin grid md;
 }
 
-@media (--lg) {
+@media (--lg-up) {
 	@mixin grid lg;
 }
 
-@media (--xl) {
+@media (--xl-up) {
 	@mixin grid xl;
 }
