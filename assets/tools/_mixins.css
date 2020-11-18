@@ -24,6 +24,7 @@
 }
 
 @define-mixin grid $breakpoint {
+	/* TODO: get the columns count dynamically */
 	@for $i from 1 to 12 {
 		.$(breakpoint)-$i {
 			max-width: calc($i / 12 * 100%);
