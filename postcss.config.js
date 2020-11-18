@@ -15,10 +15,12 @@ module.exports = {
 		require('postcss-nested'),
 		require('postcss-each-variables'),
 		require('postcss-each'),
+		require('postcss-for'),
 		require('postcss-mixins'),
 		require('postcss-extend'),
 		require('postcss-utilities'),
 		require('postcss-flexbugs-fixes'),
+		require('postcss-calc'),
 		require('postcss-custom-media')
 	]
 };

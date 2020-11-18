@@ -8,26 +8,22 @@
 	padding: 0 var(--gap);
 }
 
-.o-grid__item--1of2 {
-	flex: 0 0 50%;
+@media (--xs) {
+	@mixin grid xs;
 }
 
-.o-grid__item--1of4 {
-	flex: 0 0 25%;
+@media (--sm) {
+	@mixin grid sm;
 }
 
-.o-grid__item--1of3 {
-	flex: 0 0 calc(100% / 3);
+@media (--md) {
+	@mixin grid md;
 }
 
-.o-grid__item--2of3 {
-	flex: 0 0 66.66667%;
+@media (--lg) {
+	@mixin grid lg;
 }
 
-.o-grid__item--1of5 {
-	flex: 0 0 20%;
-}
-
-.o-grid__item--1of6 {
-	flex: 0 0 calc(100% / 6);
+@media (--xl) {
+	@mixin grid xl;
 }

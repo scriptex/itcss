@@ -7,13 +7,13 @@
 	margin: auto;
 }
 
-@define-mixin breakpoint-helpers $bp {
-	.hidden-$(bp) {
+@define-mixin breakpoint-helpers $breakpoint {
+	.hidden-$(breakpoint) {
 		display: none !important;
 	}
 
 	@each $display in var(--displays) {
-		.visible-$(bp)-$(display) {
+		.visible-$(breakpoint)-$(display) {
 			display: $(display) !important;
 		}
 	}
@@ -21,6 +21,15 @@
 
 @define-mixin display $value {
 	display: $value !important;
+}
+
+@define-mixin grid $breakpoint {
+	@for $i from 1 to 12 {
+		.$(breakpoint)-$i {
+			max-width: calc($i / 12 * 100%);
+			flex: 0 0 calc($i / 12 * 100%);
+		}
+	}
 }
 
 @define-extend display-none {
