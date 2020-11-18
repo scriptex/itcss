@@ -4,7 +4,8 @@
 }
 
 .o-grid__item {
-	flex: 0 0 100%;
+	flex-grow: 0;
+	flex-shrink: 0;
 	padding: 0 var(--gap);
 }
 
