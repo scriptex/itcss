@@ -41,5 +41,6 @@ postcss.config.js
 
 # Project specific
 .github
+.vercel
 .whitesource
 itcss.svg
