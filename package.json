@@ -23,7 +23,7 @@
 	"style": "index.css",
 	"dependencies": {},
 	"devDependencies": {
-		"postcss": "8.1.7",
+		"postcss": "8.1.8",
 		"postcss-calc": "7.0.5",
 		"postcss-cli": "8.3.0",
 		"postcss-custom-media": "7.0.8",
@@ -40,7 +40,7 @@
 		"postcss-utilities": "0.8.4"
 	},
 	"peerDependencies": {
-		"postcss": "8.1.7",
+		"postcss": "8.1.8",
 		"postcss-calc": "7.0.5",
 		"postcss-cli": "8.3.0",
 		"postcss-custom-media": "7.0.8",
