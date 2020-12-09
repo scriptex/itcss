@@ -1046,7 +1046,7 @@ postcss-initial@^3.0.0:
     lodash.template "^4.5.0"
     postcss "^7.0.2"
 
-postcss-js@^3.0.1:
+postcss-js@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/postcss-js/-/postcss-js-3.0.3.tgz#2f0bd370a2e8599d45439f6970403b5873abda33"
   integrity sha512-gWnoWQXKFw65Hk/mi2+WTQTHdPD5UJdDXZmX073EY/B3BWnYjO4F4t0VneTCnCGQ5E5GsCdMkzPaTXwl3r5dJw==
@@ -1085,15 +1085,15 @@ postcss-media-minmax@^4.0.0:
   dependencies:
     postcss "^7.0.2"
 
-postcss-mixins@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-mixins/-/postcss-mixins-7.0.1.tgz#f46a18abef1eea727b4f0b6198aada1cae20cafc"
-  integrity sha512-9VLSce+dkPYmeD7/MmPh5HTQch1HEO4avtkrT8x0t8F8TOd+gfUMkJXS82Kx1qV4c2pkMdhq4M5aEnZHYRJWiA==
+postcss-mixins@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-mixins/-/postcss-mixins-7.0.2.tgz#9c5b9db70aa74095402062b3cf38431259b58971"
+  integrity sha512-er22AZ/2C1P+jZOL4ZExVEz0XuPWJWWy7SySbb2HWFmAgXG8F4qaOmMaRTdLfSK1AbgWxRT+KQ8GQ2i5kOn1aw==
   dependencies:
     globby "^11.0.1"
-    postcss-js "^3.0.1"
+    postcss-js "^3.0.3"
     postcss-simple-vars "^6.0.1"
-    sugarss "^3.0.1"
+    sugarss "^3.0.3"
 
 postcss-nested@5.0.3:
   version "5.0.3"
@@ -1442,7 +1442,7 @@ strip-ansi@^6.0.0:
   dependencies:
     ansi-regex "^5.0.0"
 
-sugarss@^3.0.1:
+sugarss@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/sugarss/-/sugarss-3.0.3.tgz#bb2489961b98fbd15e4e35d6b9f4f2ee5547a6cb"
   integrity sha512-uxa2bbuc+w7ov7DyYIhF6bM0qZF3UkFT5/nE8AJgboiVnKsBDbwxs++dehEIe1JNhpMaGJc37wGQ2QrrWey2Sg==
