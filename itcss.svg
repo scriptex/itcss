@@ -1,1 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 731.69 437.51" style="background: white;"><title>itcss-layers2</title><polygon points="252.6 434.51 2.6 1.5 502.6 1.5 252.6 434.51" style="fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:3px"/><line x1="37.82" y1="62.5" x2="467.38" y2="62.5" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:3px"/><line x1="73.46" y1="125" x2="431.29" y2="125" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:3px"/><line x1="109.99" y1="187.51" x2="395.21" y2="187.51" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:3px"/><line x1="146.07" y1="250.01" x2="359.12" y2="250.01" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:3px"/><line x1="182.16" y1="312.51" x2="323.04" y2="312.51" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:3px"/><line x1="217.43" y1="375.01" x2="286.95" y2="375.01" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:3px"/><line x1="310.6" y1="88.5" x2="310.6" y2="89.17" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px"/><line x1="467.38" y1="62.5" x2="473.38" y2="62.5" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="485.39" y1="62.5" x2="719.68" y2="62.5" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-dasharray:12.01486587524414,12.01486587524414"/><line x1="725.69" y1="62.5" x2="731.69" y2="62.5" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="431.29" y1="125" x2="437.29" y2="125" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="449.64" y1="125" x2="715.09" y2="125" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-dasharray:12.346588134765625,12.346588134765625"/><line x1="721.26" y1="125" x2="727.26" y2="125" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="395.21" y1="187.51" x2="401.21" y2="187.51" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="413.06" y1="187.51" x2="715.34" y2="187.51" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-dasharray:11.853960990905762,11.853960990905762"/><line x1="721.26" y1="187.51" x2="727.26" y2="187.51" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="359.12" y1="250.01" x2="365.12" y2="250.01" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="377.4" y1="250.01" x2="715.12" y2="250.01" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-dasharray:12.28077220916748,12.28077220916748"/><line x1="721.26" y1="250.01" x2="727.26" y2="250.01" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="323.04" y1="312.51" x2="329.04" y2="312.51" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="340.92" y1="312.51" x2="715.32" y2="312.51" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-dasharray:11.88569164276123,11.88569164276123"/><line x1="721.26" y1="312.51" x2="727.26" y2="312.51" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="286.95" y1="375.01" x2="292.95" y2="375.01" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="305.19" y1="375.01" x2="715.15" y2="375.01" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-dasharray:12.23752212524414,12.23752212524414"/><line x1="721.26" y1="375.01" x2="727.26" y2="375.01" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="252.6" y1="436.51" x2="258.6" y2="436.51" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="270.57" y1="436.51" x2="719.7" y2="436.51" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-dasharray:11.976737976074219,11.976737976074219"/><line x1="725.69" y1="436.51" x2="731.69" y2="436.51" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="502.6" y1="1.5" x2="508.6" y2="1.5" style="fill:none;stroke:#000;stroke-miterlimit:10"/><line x1="521.11" y1="1.5" x2="715.01" y2="1.5" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-dasharray:12.509803771972656,12.509803771972656"/><line x1="721.26" y1="1.5" x2="727.26" y2="1.5" style="fill:none;stroke:#000;stroke-miterlimit:10"/><text transform="translate(578.89 413.97)" style="font-size:24px;font-family:OpenSans-Extrabold, Open Sans;font-weight:700">UTILITIES</text><text transform="translate(518.26 352.57)" style="font-size:24px;font-family:OpenSans-Extrabold, Open Sans;font-weight:700">COMPONENTS</text><text transform="translate(611.44 103.97)" style="font-size:24px;font-family:OpenSans-Extrabold, Open Sans;font-weight:700">TOOLS</text><text transform="translate(587.39 167.37)" style="font-size:24px;font-family:OpenSans-Extrabold, Open Sans;font-weight:700">GENERIC</text><text transform="translate(566.96 228.77)" style="font-size:24px;font-family:OpenSans-Extrabold, Open Sans;font-weight:700">ELEMENTS</text><text transform="translate(591.17 290.17)" style="font-size:24px;font-family:OpenSans-Extrabold, Open Sans;font-weight:700">OBJECTS</text><text transform="translate(579.28 44.57)" style="font-size:24px;font-family:OpenSans-Extrabold, Open Sans;font-weight:700">SETTINGS</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="745" height="469" viewBox="0 0 745 469">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="745" height="469" fill="#FFF"/>
+    <g stroke="#000" transform="translate(8 16)">
+      <polygon fill="#FFF" fill-rule="nonzero" stroke-width="3" points="250 433.51 0 .5 500 .5"/>
+      <line x1="35.22" x2="464.78" y1="61.5" y2="61.5" stroke-width="3"/>
+      <line x1="70.86" x2="428.69" y1="124" y2="124" stroke-width="3"/>
+      <line x1="107.39" x2="392.61" y1="186.51" y2="186.51" stroke-width="3"/>
+      <line x1="143.47" x2="356.52" y1="249.01" y2="249.01" stroke-width="3"/>
+      <line x1="179.56" x2="320.44" y1="311.51" y2="311.51" stroke-width="3"/>
+      <line x1="214.83" x2="284.35" y1="374.01" y2="374.01" stroke-width="3"/>
+      <line x1="308" x2="308" y1="87.5" y2="88.17" stroke-width="2"/>
+      <line x1="464.78" x2="470.78" y1="61.5" y2="61.5"/>
+      <line x1="482.79" x2="717.08" y1="61.5" y2="61.5" stroke-dasharray="12.015 12.015"/>
+      <line x1="718.09" x2="724.09" y1="61.5" y2="61.5"/>
+      <line x1="428.69" x2="434.69" y1="124" y2="124"/>
+      <line x1="447.04" x2="712.49" y1="124" y2="124" stroke-dasharray="12.347 12.347"/>
+      <line x1="718.66" x2="724.66" y1="124" y2="124"/>
+      <line x1="392.61" x2="398.61" y1="186.51" y2="186.51"/>
+      <line x1="410.46" x2="712.74" y1="186.51" y2="186.51" stroke-dasharray="11.854 11.854"/>
+      <line x1="718.66" x2="724.66" y1="186.51" y2="186.51"/>
+      <line x1="356.52" x2="362.52" y1="249.01" y2="249.01"/>
+      <line x1="374.8" x2="712.52" y1="249.01" y2="249.01" stroke-dasharray="12.281 12.281"/>
+      <line x1="718.66" x2="724.66" y1="249.01" y2="249.01"/>
+      <line x1="320.44" x2="326.44" y1="311.51" y2="311.51"/>
+      <line x1="338.32" x2="712.72" y1="311.51" y2="311.51" stroke-dasharray="11.886 11.886"/>
+      <line x1="718.66" x2="724.66" y1="311.51" y2="311.51"/>
+      <line x1="284.35" x2="290.35" y1="374.01" y2="374.01"/>
+      <line x1="302.59" x2="712.55" y1="374.01" y2="374.01" stroke-dasharray="12.238 12.238"/>
+      <line x1="718.66" x2="724.66" y1="374.01" y2="374.01"/>
+      <line x1="250" x2="256" y1="435.51" y2="435.51"/>
+      <line x1="267.97" x2="717.1" y1="435.51" y2="435.51" stroke-dasharray="11.977 11.977"/>
+      <line x1="723.09" x2="729.09" y1="435.51" y2="435.51"/>
+      <line x1="500" x2="506" y1=".5" y2=".5"/>
+      <line x1="518.51" x2="712.41" y1=".5" y2=".5" stroke-dasharray="12.51 12.51"/>
+      <line x1="717.66" x2="723.66" y1=".5" y2=".5"/>
+    </g>
+    <g fill="#000" fill-rule="nonzero" font-family="OpenSans-ExtraBold, Open Sans" font-size="24" font-weight="600" transform="translate(544.26 29.57)">
+      <text>
+        <tspan x="60.63" y="400.4">UTILITIES</tspan>
+      </text>
+      <text>
+        <tspan x="0" y="338">COMPONENTS</tspan>
+      </text>
+      <text>
+        <tspan x="93.18" y="87.4">TOOLS</tspan>
+      </text>
+      <text>
+        <tspan x="69.13" y="149.8">GENERIC</tspan>
+      </text>
+      <text>
+        <tspan x="48.7" y="212.2">ELEMENTS</tspan>
+      </text>
+      <text>
+        <tspan x="72.91" y="274.6">OBJECTS</tspan>
+      </text>
+      <text>
+        <tspan x="61.02" y="26">SETTINGS</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
