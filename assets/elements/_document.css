@@ -1,4 +1,6 @@
 html {
+	scroll-behavior: smooth;
+	scroll-snap-type: x mandatory;
 	-webkit-tap-highlight-color: color-mod(var(--color-secondary) alpha(0%));
 }
 
@@ -10,4 +12,8 @@ body {
 	min-width: 20rem;
 	margin: 0;
 	background-color: var(--color-primary);
+}
+
+[id] {
+	scroll-margin-top: 2ex;
 }
