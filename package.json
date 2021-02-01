@@ -1,6 +1,6 @@
 {
 	"name": "itcss",
-	"version": "1.7.1",
+	"version": "1.8.0",
 	"description": "CSS starter boilerplate based on the ITCSS pattern",
 	"scripts": {
 		"build": "postcss index.css -o main.css -c postcss.config.js",
@@ -40,20 +40,20 @@
 		"postcss-utilities": "0.8.4"
 	},
 	"peerDependencies": {
-		"postcss": "^8.1.10",
-		"postcss-calc": "^7.0.5 || ^8.0.0",
-		"postcss-cli": "^8.3.0",
-		"postcss-custom-media": "^7.0.8 || ^8.0.0",
-		"postcss-each": "^0.10.0",
-		"postcss-each-variables": "^0.3.0",
-		"postcss-easy-import": "^3.0.0",
-		"postcss-extend": "^1.0.5",
-		"postcss-flexbugs-fixes": "^5.0.2",
-		"postcss-for": "^2.1.1",
-		"postcss-mixins": "^7.0.1",
-		"postcss-nested": "^5.0.1",
-		"postcss-normalize": "^9.0.0",
-		"postcss-preset-env": "^6.7.0",
-		"postcss-utilities": "^0.8.4"
+		"postcss": ">=8.1.10",
+		"postcss-calc": ">=8.0.0",
+		"postcss-cli": ">=8.3.0",
+		"postcss-custom-media": ">=8.0.0",
+		"postcss-each": ">=0.10.0",
+		"postcss-each-variables": ">=0.3.0",
+		"postcss-easy-import": ">=3.0.0",
+		"postcss-extend": ">=1.0.5",
+		"postcss-flexbugs-fixes": ">=5.0.2",
+		"postcss-for": ">=2.1.1",
+		"postcss-mixins": ">=7.0.1",
+		"postcss-nested": ">=5.0.1",
+		"postcss-normalize": ">=9.0.0",
+		"postcss-preset-env": ">=6.7.0",
+		"postcss-utilities": ">=0.8.4"
 	}
 }
