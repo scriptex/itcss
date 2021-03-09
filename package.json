@@ -1,6 +1,6 @@
 {
 	"name": "itcss",
-	"version": "1.8.0",
+	"version": "1.8.1",
 	"description": "CSS starter boilerplate based on the ITCSS pattern",
 	"scripts": {
 		"build": "postcss index.css -o main.css -c postcss.config.js",
@@ -23,6 +23,7 @@
 	"style": "index.css",
 	"dependencies": {},
 	"devDependencies": {
+		"browserslist": "4.16.3",
 		"postcss": "8.2.7",
 		"postcss-calc": "8.0.0",
 		"postcss-cli": "8.3.1",

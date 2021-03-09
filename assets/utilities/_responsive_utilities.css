@@ -1,7 +1,7 @@
 @each $bp in var(--breakpoints) {
 	@each $display in var(--displays) {
 		.visible-$(bp)-$(display) {
-			@extend display-none;
+			display: none !important;
 		}
 	}
 }
