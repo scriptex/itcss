@@ -24,7 +24,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"browserslist": "4.16.3",
-		"postcss": "8.2.9",
+		"postcss": "8.2.10",
 		"postcss-calc": "8.0.0",
 		"postcss-cli": "8.3.1",
 		"postcss-custom-media": "8.0.0",
