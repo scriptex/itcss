@@ -26,7 +26,7 @@
 		"browserslist": "4.17.1",
 		"postcss": "8.3.7",
 		"postcss-calc": "8.0.0",
-		"postcss-cli": "8.3.1",
+		"postcss-cli": "9.0.0",
 		"postcss-custom-media": "8.0.0",
 		"postcss-each": "1.1.0",
 		"postcss-each-variables": "0.3.0",
