@@ -271,11 +271,6 @@ colorette@^1.2.1, colorette@^1.2.2:
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
   integrity sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==
 
-colorette@^2.0.0:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.10.tgz#0cc871faead8b07227c9ad784f27a0d71f3794e2"
-  integrity sha512-tQ7Prvd+zU6EUsQVXJNqxJUZdZ4btI34jlp/W1N/bNyWsY55dxe2oSg+ss3COV4vKbWLVlwLJt5xMSCuZ3R4og==
-
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
@@ -702,6 +697,11 @@ nanocolors@^0.1.5:
   resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.1.6.tgz#bc2350d3edfdbfadd7ac018c855ae7c13905a6ad"
   integrity sha512-2pvTw6vYRaBLGir2xR7MxaJtyWkrn+C53EpW8yPotG+pdAwBvt0Xwk4VJ6VHLY0aLthVZPvDfm9TdZvrvAm5UQ==
 
+nanocolors@^0.2.11:
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.2.11.tgz#f2573e6872f1b70067423fc68bbc9d0de2f3bbee"
+  integrity sha512-83ttyvfJj66dKMadWfBkEUOEDFfRc8FpzTJvh1MySR/pzWFmFikTQZGOV6kHZRz7yR/heiQ1y/MHBBN5P/e7WQ==
+
 nanocolors@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.2.2.tgz#94a4b7e45ecdebdbea7cb0a8349f9447a9677675"
@@ -834,17 +834,17 @@ postcss-calc@8.0.0:
     postcss-selector-parser "^6.0.2"
     postcss-value-parser "^4.0.2"
 
-postcss-cli@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-9.0.0.tgz#5e605987900bf6663f786e0e4de715a65603aadd"
-  integrity sha512-tg6MK/jYyO7Ye9PObPYkjCQa7Bh2K6dA3a3I0muczRuw4T4HAtOTpPR+nOCw+On+WDB2sdsbGOsjlwO8BNRbUw==
+postcss-cli@9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-9.0.1.tgz#4c3c5dac092fd048457ffc337eeff9e6415d55e7"
+  integrity sha512-zO160OBaAZBFUWO+QZIzEKMjnPIc5c61dMg1d7xafblh9cxbNb6s16ahJuP91PcVsu//gqr7BKllJxRiRDsSYw==
   dependencies:
     chokidar "^3.3.0"
-    colorette "^2.0.0"
     dependency-graph "^0.11.0"
     fs-extra "^10.0.0"
     get-stdin "^9.0.0"
     globby "^12.0.0"
+    nanocolors "^0.2.11"
     postcss-load-config "^3.0.0"
     postcss-reporter "^7.0.0"
     pretty-hrtime "^1.0.3"
