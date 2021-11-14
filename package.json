@@ -23,7 +23,7 @@
 	"style": "index.css",
 	"dependencies": {},
 	"devDependencies": {
-		"browserslist": "4.17.6",
+		"browserslist": "4.18.0",
 		"postcss": "8.3.11",
 		"postcss-calc": "8.0.0",
 		"postcss-cli": "9.0.2",
