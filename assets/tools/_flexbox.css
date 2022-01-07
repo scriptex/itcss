@@ -1,15 +1,30 @@
-@define-mixin flex $align, $justify {
-	display: flex;
+@define-mixin flex $align: stretch, $justify: flex-start, $wrap: nowrap, $direction: row, $display: flex {
+	display: $display;
+	flex-flow: $direction $wrap;
 	align-items: $align;
 	justify-content: $justify;
 }
 
-@define-mixin flex-row $wrap: wrap, $align: stretch, $justify: space-between {
-	flex-flow: row $wrap;
-	@mixin flex $align, $justify;
+@define-mixin flex-row $wrap: nowrap, $align: stretch, $justify: flex-start {
+	@mixin flex $align, $justify, $wrap;
 }
 
-@define-mixin flex-column $wrap: nowrap, $align: stretch, $justify: space-between {
-	flex-flow: column $wrap;
-	@mixin flex $align, $justify;
+@define-mixin flex-column $wrap: nowrap, $align: stretch, $justify: flex-start {
+	@mixin flex $align, $justify, $wrap, column;
+}
+
+@define-mixin inline-flex-row $wrap: nowrap, $align: stretch, $justify: flex-start {
+	@mixin flex $align, $justify, $wrap, row, inline-flex;
+}
+
+@define-mixin inline-flex-column $wrap: nowrap, $align: stretch, $justify: flex-start {
+	@mixin flex $align, $justify, $wrap, column, inline-flex;
+}
+
+@define-mixin flex-row-center $wrap: nowrap {
+	@mixin flex-row $wrap, center, center;
+}
+
+@define-mixin flex-column-center $wrap: nowrap {
+	@mixin flex-column $wrap, center, center;
 }
