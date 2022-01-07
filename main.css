@@ -453,13 +453,13 @@ a[href^='tel'] {
 }
 .o-wrapper {
 	min-height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	    -ms-flex-flow: column nowrap;
 	        flex-flow: column nowrap;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	-webkit-box-align: stretch;
 	    -ms-flex-align: stretch;
 	        align-items: stretch;
@@ -475,19 +475,19 @@ a[href^='tel'] {
 	margin-left: auto;
 }
 .o-shell--flex {
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-flow: row wrap;
-	        flex-flow: row wrap;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
 	-webkit-box-align: stretch;
 	    -ms-flex-align: stretch;
 	        align-items: stretch;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
 }
 .o-shell--fluid {
 	max-width: none;
@@ -498,13 +498,13 @@ a[href^='tel'] {
 	        flex: 1 1;
 }
 .o-grid {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	    -ms-flex-flow: row wrap;
 	        flex-flow: row wrap;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	-webkit-box-align: stretch;
 	    -ms-flex-align: stretch;
 	        align-items: stretch;

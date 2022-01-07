@@ -136,25 +136,56 @@ In order to do so in your setup, please refer to the [`postcss.config.js`](https
 
 -   `_flexbox.css` - a set of mixins for flexbox
 
-    _Contains three mixins:_
+    _Contains several mixins:_
 
     ```css
     /* General purpose flex container */
     /* prettier-ignore */
     @mixin flex
-    	center /* align-items */
-    	flex-end /* justify-content */;
+    	center /* align-items */,
+    	flex-end /* justify-content */,
+        wrap /* flex-wrap */,
+        row /* flex-direction */,
+        flex /* display */;
 
     /* Flex container with flex-direction set to "row" */
     /* prettier-ignore */
     @mixin flex-row
-    	no-wrap /* wrap */
-    	center /* align-items */
+    	no-wrap /* wrap */,
+    	center /* align-items */,
     	flex-end /* justify-content */;
 
     /* Flex container with flex-direction set to "column" */
     /* prettier-ignore */
     @mixin flex-column
+    	no-wrap /* wrap */
+    	center /* align-items */
+    	flex-end /* justify-content */;
+
+    /* Inline-flex container with flex-direction set to "row" */
+    /* prettier-ignore */
+    @mixin inline-flex-row
+    	no-wrap /* wrap */,
+    	center /* align-items */,
+    	flex-end /* justify-content */;
+
+    /* Inline-flex container with flex-direction set to "column" */
+    /* prettier-ignore */
+    @mixin inline-flex-column
+    	no-wrap /* wrap */
+    	center /* align-items */
+    	flex-end /* justify-content */;
+
+    /* Inline-flex container with flex-direction set to "row" */
+    /* prettier-ignore */
+    @mixin inline-flex-row
+    	no-wrap /* wrap */,
+    	center /* align-items */,
+    	flex-end /* justify-content */;
+
+    /* Inline-flex container with flex-direction set to "column" */
+    /* prettier-ignore */
+    @mixin inline-flex-column
     	no-wrap /* wrap */
     	center /* align-items */
     	flex-end /* justify-content */;
