@@ -1,6 +1,6 @@
 {
 	"name": "itcss",
-	"version": "1.9.0",
+	"version": "2.0.0",
 	"description": "CSS starter boilerplate based on the ITCSS pattern",
 	"scripts": {
 		"build": "postcss index.css -o main.css -c postcss.config.js",
