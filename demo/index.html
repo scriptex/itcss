@@ -2,19 +2,51 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 		<title>ITCSS Demo</title>
-		<link rel="stylesheet" href="main.css" />
+
+		<link rel="stylesheet" href="./main.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"
+		/>
+
+		<script
+			src="https://unpkg.com/requirejs"
+			integrity="sha384-9M3Wd+wRkBqNHxK8F7Wg3Xs1Du/JXnCXgVdJ+G6KkYBvGol8vSgEiBdd8+MTaYtk"
+			crossorigin="anonymous"
+		></script>
+
+		<script
+			src="https://unpkg.com/scriptex-socials"
+			async
+			integrity="sha384-FDS8WECJvE4bGb+arLPh3DSv0mrVHD+hJRf+UaM6rVMT+wBleSgUlog90rrtgHH1"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
+		<a
+			href="https://github.com/scriptex/itcss"
+			title="See code on Github"
+			class="github-fork-ribbon"
+			data-ribbon="See code on Github"
+		>
+			See code on Github
+		</a>
+
 		<div class="o-wrapper">
 			<header class="c-header">
 				<br />
+
 				<div class="o-shell o-shell--flex">
 					<a href="#">Logo</a>
 
 					<button type="button" class="c-btn">Menu</button>
 				</div>
+
 				<br />
 			</header>
 
@@ -227,6 +259,8 @@
 						Designed and developed by <a href="https://atanas.info">Atanas Atanasov</a>. All rights
 						reserved.
 					</p>
+
+					<social-links></social-links>
 				</div>
 
 				<br />

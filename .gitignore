@@ -17,4 +17,5 @@ node_modules/
 ehthumbs.db
 Thumbs.db
 
-.vercel
+main.css
+demo/*.css
