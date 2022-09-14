@@ -1,26 +1,37 @@
 {
 	"name": "itcss",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"description": "CSS starter boilerplate based on the ITCSS pattern",
-	"scripts": {
-		"build": "postcss index.css -o main.css -c postcss.config.js",
-		"deploy": "cp main.css demo/main.css"
-	},
 	"keywords": [
 		"CSS",
+		"ITCSS",
 		"PostCSS",
 		"CSS Boilerplate",
-		"ITCSS"
+		"ITCSS Boilerplate",
+		"PostCSS Boilerplate",
+		"CSS Starter Template",
+		"ITCSS Starter Template",
+		"PostCSS Starter Template"
 	],
-	"author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
-	"repository": "https://github.com/scriptex/itcss",
+	"homepage": "https://itcss.atanas.info",
 	"bugs": {
 		"url": "https://github.com/scriptex/itcss/issues",
-		"email": "scriptex.bg@gmail.com"
+		"email": "hi@atanas.info"
 	},
 	"license": "MIT",
+	"author": "Atanas Atanasov <hi@atanas.info> (https://atanas.info)",
+	"funding": "https://github.com/sponsors/scriptex",
 	"main": "index.css",
 	"style": "index.css",
+	"repository": {
+		"type": "git",
+		"url": "github:scriptex/itcss"
+	},
+	"scripts": {
+		"copy": "cp main.css demo/main.css",
+		"build": "postcss index.css -o main.css -c postcss.config.js",
+		"deploy": "yarn build && yarn copy"
+	},
 	"dependencies": {},
 	"devDependencies": {
 		"autoprefixer": "10.4.10",

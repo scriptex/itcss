@@ -8,6 +8,7 @@
 
 .o-shell--flex {
 	@mixin flex-row;
+	justify-content: space-between;
 }
 
 .o-shell--fluid {
