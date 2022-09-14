@@ -39,5 +39,5 @@ tsconfig.json
 tslint.json
 yarn.lock
 
-!dist
+!main.css
 demo
