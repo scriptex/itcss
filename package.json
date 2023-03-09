@@ -34,7 +34,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"autoprefixer": "10.4.13",
+		"autoprefixer": "10.4.14",
 		"browserslist": "4.21.5",
 		"postcss": "8.4.21",
 		"postcss-calc": "8.2.4",
