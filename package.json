@@ -36,7 +36,7 @@
 	"devDependencies": {
 		"autoprefixer": "10.4.16",
 		"browserslist": "4.22.2",
-		"postcss": "8.4.32",
+		"postcss": "8.4.33",
 		"postcss-calc": "9.0.1",
 		"postcss-cli": "11.0.0",
 		"postcss-color-mod-function": "3.0.3",
