@@ -37,7 +37,7 @@
 		"autoprefixer": "10.4.20",
 		"browserslist": "4.23.3",
 		"postcss": "8.4.40",
-		"postcss-calc": "10.0.0",
+		"postcss-calc": "10.0.1",
 		"postcss-cli": "11.0.0",
 		"postcss-color-mod-function": "3.0.3",
 		"postcss-custom-media": "11.0.0",
