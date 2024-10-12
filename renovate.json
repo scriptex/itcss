@@ -12,5 +12,6 @@
 	},
 	"major": {
 		"automerge": false
-	}
+	},
+    "schedule": ["* * 1,15 * *"]
 }
