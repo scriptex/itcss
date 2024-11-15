@@ -36,11 +36,11 @@
 	"devDependencies": {
 		"autoprefixer": "10.4.20",
 		"browserslist": "4.24.2",
-		"postcss": "8.4.47",
+		"postcss": "8.4.49",
 		"postcss-calc": "10.0.2",
 		"postcss-cli": "11.0.0",
 		"postcss-color-mod-function": "4.1.1",
-		"postcss-custom-media": "11.0.4",
+		"postcss-custom-media": "11.0.5",
 		"postcss-each": "1.1.0",
 		"postcss-each-variables": "0.3.0",
 		"postcss-easy-import": "4.0.0",
