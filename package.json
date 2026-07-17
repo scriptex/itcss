@@ -34,9 +34,9 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"autoprefixer": "10.5.2",
-		"browserslist": "4.28.4",
-		"postcss": "8.5.16",
+		"autoprefixer": "10.5.4",
+		"browserslist": "4.28.6",
+		"postcss": "8.5.19",
 		"postcss-calc": "10.1.1",
 		"postcss-cli": "11.0.1",
 		"postcss-color-mod-function": "4.1.1",
