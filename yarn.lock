@@ -455,10 +455,10 @@ postcss-browser-comments@^6.0.1:
   resolved "https://registry.yarnpkg.com/postcss-browser-comments/-/postcss-browser-comments-6.0.1.tgz#1a2735c734c3fe2bdcf723e49df8864ac90ed195"
   integrity sha512-VE5mVLOW+L31a+Eyi7i5j7PmzOydObKLA9VwGBpTZy2OYB3XY1E7/xHxv4tURtEI/qb5h2TyyGHPhZ31sXOEXg==
 
-postcss-calc@11.2.3:
-  version "11.2.3"
-  resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-11.2.3.tgz#be9fb17baafd2defc32aa20b385dfd2b7e855364"
-  integrity sha512-pFW3MR2a4W7uHcSGUiyQGGXZWHon83ljbNwnUJ1mRKublWQbv+3o9NiqhlV4TJfNby+U+zLY2OgiywzhA5eFqw==
+postcss-calc@11.3.0:
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-11.3.0.tgz#b0d961d7aeaf662c024d463b9dffb48c227a4277"
+  integrity sha512-DjOpy9au57PK8MXPrjDbGIVjO6VN4CGy4ADzPGi1vEJ0XOpJ/MxoCB5FRgQ3Hnv58oobpBZtERS/qwQVT3WPWQ==
   dependencies:
     "@csstools/css-tokenizer" "^4.0.2"
 
