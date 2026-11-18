@@ -2,30 +2,35 @@
 # yarn lockfile v1
 
 
-"@csstools/cascade-layer-name-parser@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@csstools/cascade-layer-name-parser/-/cascade-layer-name-parser-3.0.2.tgz#5e7626ba8d3cf541e2302c102cade63208dbe25f"
-  integrity sha512-B731RJ9pfJj3D5GJPp8ccsaaHMdwBmlOb4QWAYQUFpmMxonxJvNeeIoo0E89CjMJaKDvQXy9MKpSXY/i7XgeFA==
+"@csstools/cascade-layer-name-parser@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@csstools/cascade-layer-name-parser/-/cascade-layer-name-parser-3.0.3.tgz#545f96f004bc091b023287c3b66f953b78ca301a"
+  integrity sha512-9HiTRVY6yOywrAlBBlQ8KToKfwBlDmLNqTvh52BIe323BepJtFyWc+WQ4NnKWlTrvf3doP+EBOyAbnmFH/ay9Q==
 
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@csstools/css-parser-algorithms@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@csstools/css-parser-algorithms/-/css-parser-algorithms-4.0.2.tgz#689445621dae9f2114db2bee2190d3b4513a2d3c"
-  integrity sha512-40cSKyMvK+tq4qz6Awrlye2WGuOKt3FwPgtGg6KTfbHOWNw+Rk1rzbAtZnZ6IBhsY491HLRnDXwoyBAijmmILA==
+"@csstools/css-parser-algorithms@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@csstools/css-parser-algorithms/-/css-parser-algorithms-4.0.3.tgz#d3f9a5502b828fca49511a66aa274b279e15157d"
+  integrity sha512-EpCfUDaJtwohPHC7egoXxPGT/R1/WyyAhw87MKB/7BPPZvZU+IcEqo4er5FpLnby2Gvwt9Lpxy+WNEDyFjoXtA==
 
 "@csstools/css-tokenizer@^4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@csstools/css-tokenizer/-/css-tokenizer-4.0.2.tgz#7c11bbc7e2912a7def676d72ba6e00895aadc0d5"
   integrity sha512-OoKoR0f76dCY666JlcbhmVTs2drYj1GUXZTYTcbUgJjh9Nv41aFfZ21bPQTERm5+L5cBDo466NltB2lplS5GBw==
 
-"@csstools/media-query-list-parser@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@csstools/media-query-list-parser/-/media-query-list-parser-5.0.2.tgz#2092fdbfc590c46c71bec66bea43df76c6ea584e"
-  integrity sha512-qx19O8AbbLLbDSAcI6YOby/Vq8rV51psgIvlF5OZT/L8fQJDCyQifL6k+kYU4a8ySpzJ4RBzZkIs530bAn8y4Q==
+"@csstools/css-tokenizer@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@csstools/css-tokenizer/-/css-tokenizer-4.0.3.tgz#eeab5057075343851c12b5181bd6efb463b0dd11"
+  integrity sha512-gdkFe/Z4KU1q8Y5S3GYScXGcOnO56dgWwIs5+97Ij1VIKISItOIUlCXUq4VLbdnRclF+SSQ49sLsn3KeV111AA==
+
+"@csstools/media-query-list-parser@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@csstools/media-query-list-parser/-/media-query-list-parser-5.0.3.tgz#6071666af76c0793e507c457e68c3a3ed3d9232a"
+  integrity sha512-d4ioZO/Qdqwl2nWSP1qChTIKWFGOdPKifpq5D5MbjG8etr6jG24oxoD8MvuuIXRrhLDp8bFnLYAv3TJLfepu5A==
 
 "@csstools/normalize.css@12.1.1":
   version "12.1.1"
@@ -486,15 +491,15 @@ postcss-color-mod-function@4.1.1:
     "@csstools/convert-colors" "^1.4.0"
     postcss-value-parser "^4.2.0"
 
-postcss-custom-media@12.0.3:
-  version "12.0.3"
-  resolved "https://registry.yarnpkg.com/postcss-custom-media/-/postcss-custom-media-12.0.3.tgz#3f5056cafc3f0b84dbfb432a85f4864cb8f54028"
-  integrity sha512-pgOICT/unQexoA/Vh4ZvyAUrcwwA/nHh0SJcOwOombpwDEj1x5N6zK+kz97wy9NslhU6UxhE5c5Q/M2gpYfkJA==
+postcss-custom-media@12.0.4:
+  version "12.0.4"
+  resolved "https://registry.yarnpkg.com/postcss-custom-media/-/postcss-custom-media-12.0.4.tgz#2c6152ed55d80d816c53997040b263fe7c3071f4"
+  integrity sha512-ycmk10nx6vzRmzpcZXKU471Fbhsq583yRHGg1cA5HTZBEJob0Su83jTpw3KkPzfJrSXSP/TiL6bgWUuE4797Cw==
   dependencies:
-    "@csstools/cascade-layer-name-parser" "^3.0.2"
-    "@csstools/css-parser-algorithms" "^4.0.2"
-    "@csstools/css-tokenizer" "^4.0.2"
-    "@csstools/media-query-list-parser" "^5.0.2"
+    "@csstools/cascade-layer-name-parser" "^3.0.3"
+    "@csstools/css-parser-algorithms" "^4.0.3"
+    "@csstools/css-tokenizer" "^4.0.3"
+    "@csstools/media-query-list-parser" "^5.0.3"
 
 postcss-each-variables@0.3.0:
   version "0.3.0"
